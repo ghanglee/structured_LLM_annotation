@@ -1,0 +1,57 @@
+{
+  "name": "ADCC BIM-checkability",
+  "description": "Conjunctive composition. Seven properties are judged on separate axes; three aggregates and a verdict are derived from them. Each property contributes one independent constraint.",
+  "reported_granularity": "verdict",
+  "granularities": {
+    "sentential": ["complete", "incomplete"],
+    "normative": ["y", "n", "partial"],
+    "referential": ["complete", "incomplete"],
+    "process": ["independent", "dependent"],
+    "data": ["independent", "dependent"],
+    "human": ["independent", "dependent"],
+    "atomicity": ["atomic", "compound", "n.a."],
+    "completeness": ["complete", "incomplete"],
+    "self_sufficiency": ["yes", "no"],
+    "atomicity_aggregate": ["atomic", "compound", "n.a."],
+    "verdict": ["yes", "no"]
+  },
+  "satisfied_when": {
+    "sentential": ["complete"],
+    "normative": ["y"],
+    "referential": ["complete"],
+    "process": ["independent"],
+    "data": ["independent"],
+    "human": ["independent"],
+    "atomicity": ["atomic"],
+    "completeness": ["complete"],
+    "self_sufficiency": ["yes"],
+    "atomicity_aggregate": ["atomic"]
+  },
+  "compositions": [
+    {
+      "target": "completeness",
+      "operator": "and",
+      "operands": ["sentential", "normative", "referential"],
+      "emit": {"true": "complete", "false": "incomplete"}
+    },
+    {
+      "target": "self_sufficiency",
+      "operator": "and",
+      "operands": ["process", "data", "human"],
+      "emit": {"true": "yes", "false": "no"}
+    },
+    {
+      "target": "verdict",
+      "operator": "and",
+      "operands": ["completeness", "self_sufficiency", "atomicity_aggregate"],
+      "emit": {"true": "yes", "false": "no"}
+    }
+  ],
+  "mappings": [],
+  "independent_constraints": 3,
+  "notes": [
+    "The verdict is DERIVED, never elicited, in every configuration that applies these rules.",
+    "Atomicity is recorded as n.a. under short-circuit elicitation whenever an earlier property fails, which is why the top-level conjunction is not identifiable from elicited data alone.",
+    "A separately elicited holistic verdict may be compared against the derived verdict; that comparison is the check, and it requires the two to come from calls that cannot see each other."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "GoEmotions hierarchy",
+  "description": "Functional coarsening. Each coarser level is a function of the finer one, so the whole chain yields one independent constraint however many levels are stacked. Both mappings ship with the corpus and were not authored for this study.",
+  "reported_granularity": "fine",
+  "granularities": {
+    "fine": ["admiration", "amusement", "anger", "annoyance", "approval", "caring", "confusion",
+             "curiosity", "desire", "disappointment", "disapproval", "disgust", "embarrassment",
+             "excitement", "fear", "gratitude", "grief", "joy", "love", "nervousness", "optimism",
+             "pride", "realization", "relief", "remorse", "sadness", "surprise", "neutral"],
+    "ekman": ["anger", "disgust", "fear", "joy", "sadness", "surprise", "neutral"],
+    "sentiment": ["positive", "negative", "ambiguous", "neutral"]
+  },
+  "satisfied_when": {},
+  "compositions": [],
+  "mappings": [
+    {
+      "name": "fine_to_ekman",
+      "from": "fine",
+      "to": "ekman",
+      "independent": true,
+      "map": {
+        "anger": "anger", "annoyance": "anger", "disapproval": "anger",
+        "disgust": "disgust",
+        "fear": "fear", "nervousness": "fear",
+        "joy": "joy", "amusement": "joy", "approval": "joy", "excitement": "joy",
+        "gratitude": "joy", "love": "joy", "optimism": "joy", "relief": "joy",
+        "pride": "joy", "admiration": "joy", "desire": "joy", "caring": "joy",
+        "sadness": "sadness", "disappointment": "sadness", "embarrassment": "sadness",
+        "grief": "sadness", "remorse": "sadness",
+        "surprise": "surprise", "realization": "surprise", "confusion": "surprise",
+        "curiosity": "surprise",
+        "neutral": "neutral"
+      }
+    },
+    {
+      "name": "fine_to_sentiment",
+      "from": "fine",
+      "to": "sentiment",
+      "independent": false,
+      "entailed_by": ["fine_to_ekman"],
+      "map": {
+        "admiration": "positive", "amusement": "positive", "approval": "positive",
+        "caring": "positive", "desire": "positive", "excitement": "positive",
+        "gratitude": "positive", "joy": "positive", "love": "positive",
+        "optimism": "positive", "pride": "positive", "relief": "positive",
+        "anger": "negative", "annoyance": "negative", "disappointment": "negative",
+        "disapproval": "negative", "disgust": "negative", "embarrassment": "negative",
+        "fear": "negative", "grief": "negative", "nervousness": "negative",
+        "remorse": "negative", "sadness": "negative",
+        "confusion": "ambiguous", "curiosity": "ambiguous", "realization": "ambiguous",
+        "surprise": "ambiguous",
+        "neutral": "neutral"
+      }
+    }
+  ],
+  "independent_constraints": 1,
+  "notes": [
+    "fine_to_sentiment is the composition of fine_to_ekman with an Ekman-to-sentiment mapping, so it is entailed and adds no constraint. Verified: both constraint sets flag the same 86 of 300 comments.",
+    "The reported configuration uses two levels, fine and Ekman. The sentiment level costs a call and lowers accuracy.",
+    "Ekman classes 'disgust' and 'neutral' each have exactly one refinement, so eliciting either determines the emotion label. verify.py computes these automatically by inverting the mapping."
+  ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# fetched or reconstructed corpus text is never committed
+reproduction/data/goemotions_text.csv
+reproduction/data/provisions_text.csv
+labelled.csv

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use this dataset or code, please cite the paper below.
+title: Call-efficient structured LLM annotation — data and code
+abstract: >-
+  Elicitations, gold labels, rule sets and a deterministic verifier for a structured
+  LLM annotation method that decomposes a label into a hierarchy of granularities,
+  declares the relations among them as logical rules, elicits each granularity in
+  mutually blind calls, and applies those rules at no model cost.
+authors:
+  - family-names: Lee
+    given-names: Ghang
+    affiliation: Yonsei University
+    email: glee@yonsei.ac.kr
+license: MIT
+keywords:
+  - gold-standard annotation
+  - large language models
+  - LLM-as-judge
+  - task decomposition
+  - BIM checkability
+  - automated design compliance checking
