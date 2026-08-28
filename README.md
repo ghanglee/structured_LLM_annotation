@@ -33,42 +33,6 @@ python reproduce_goemotions.py
 python reproduce_annollm_rerun.py
 ```
 
-## What is here, and what is not
-
-**Included.** Every elicitation from every configuration and every model, for both corpora; the
-published baselines' elicitations and prompts; the gold labels; the three expert raters'
-labels, anonymised; the prompts; the rule sets; and the verifier.
-
-**Not included, and why.**
-
-- **The text of the 700 building-regulation provisions.** They are verbatim extracts from the
-  International Building Code and FGI guidelines, which are copyrighted, alongside ADA and
-  Approved Documents material, which is not. **Per-row source attribution was not recorded
-  during dataset construction**, so it is not currently possible to separate the freely
-  redistributable rows from the rest. Until that provenance is restored, this release ships
-  `data/provisions_index.csv` — an identifier, a SHA-256 of the normalised text, and its length
-  — which lets you confirm you are working from the right provisions without republishing them.
-  Every table in the paper recomputes without the text; only re-running elicitation from
-  scratch requires it.
-- **The GoEmotions comment text.** The corpus is Google's, under the Apache License 2.0, which
-  would permit redistribution. It is fetched rather than copied so that this package tracks the
-  upstream corpus, including any later redaction — the maintainers note that personal identities
-  may in some cases be discoverable from Reddit text. `data/goemotions_sample.csv` gives the 300
-  identifiers, reference labels and a SHA-256 per comment;
-  `scripts/fetch_goemotions.py` retrieves the text and verifies it against those hashes.
-- **An invalidated experiment.** An attempt to build a seven-sub-element decomposition of
-  emotion is deliberately excluded. Its composition table was invented by the authors rather
-  than stipulated by the corpus and resolved by nearest-neighbour distance, which is not a
-  logical rule. It is not reported in the paper and should not be reused.
-
-## A caveat on the reference standard
-
-The building-regulation reference standard was constructed by the authors using the same
-codebook the model is prompted with. If it was adjudicated with the current litmus-test set in
-view, then accuracy measured against it partly reflects agreement with a procedure rather than
-correctness. Readers should weigh the primary-experiment figures accordingly. Sections 4.2 and 5.1 of the
-paper state this boundary; it is repeated here because a public release invites the check.
-
 ## Licence
 
 Code is MIT. Labels, annotations and model outputs produced by this study are CC BY 4.0.
