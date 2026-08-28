@@ -9,8 +9,20 @@ abstract: >-
 authors:
   - family-names: Lee
     given-names: Ghang
-    affiliation: Yonsei University
+    affiliation: Yonsei University; TUM Institute for Advanced Studies
     email: glee@yonsei.ac.kr
+  - family-names: Kim
+    given-names: Yonghan
+    affiliation: TUM Institute for Advanced Studies
+  - family-names: Youn
+    given-names: Heejun
+    affiliation: Yonsei University
+  - family-names: Roh
+    given-names: Hyunsung
+    affiliation: Yonsei University
+  - family-names: Borrmann
+    given-names: André
+    affiliation: TUM Georg-Nemetschek-Institute
 license: MIT
 keywords:
   - gold-standard annotation
