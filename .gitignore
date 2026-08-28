@@ -6,3 +6,6 @@ __pycache__/
 reproduction/data/goemotions_text.csv
 reproduction/data/provisions_text.csv
 labelled.csv
+# demonstration explanations quote the provisions they explain; regenerate, never commit
+annollm_explanations.json
+reproduction/baselines/rerun/work_*/

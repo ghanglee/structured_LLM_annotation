@@ -43,7 +43,7 @@ def main(base):
                     for i, a, b in zip(d.sample_index, d.fine_A, d.fine_B)], index=d.index)
     esc = (d.fine_A != d.fine_B).mean()
 
-    print("=== Table 9: proposed configurations on GoEmotions ===")
+    print("=== Table 11: proposed configurations and SOTA baselines on GoEmotions ===")
     for nm, v, fl, calls in (("A1", A1, pd.Series(False, index=d.index), 1.00),
                              ("A2", A2, pd.Series(False, index=d.index), round(2 + esc, 2)),
                              ("A3", A3, resid, 2.00)):
@@ -51,7 +51,7 @@ def main(base):
         print(f"  {nm}  calls {calls:4.2f}  all {ok.mean():6.1%}  "
               f"auto {ok[~fl].mean():6.1%}  referred {fl.mean():5.1%}")
 
-    print("\n=== Table 10: paired exact McNemar against the baselines ===")
+    print("\n=== Table 12: paired exact McNemar against the SOTA baselines ===")
     b = pd.read_csv(f"{base}/outputs/goemotions_baselines.csv")
     gm = dict(zip(d.sample_index, d.gold))
     agg = {}
@@ -74,7 +74,7 @@ def main(base):
             n01, n10, p = mcnemar(a_ok, b_ok)
             print(f"  {nm} vs {m:16s} n={len(common):3d}  {a_ok.mean():.1%} vs {b_ok.mean():.1%}  p={p:.3g}")
 
-    print("\n=== Table 11: effect of blind elicitation ===")
+    print("\n=== Table 13: effect of blind elicitation ===")
     print(f"  fine label alone, one call                    {(d.fine_A==d.gold).mean():6.1%}")
     print(f"  all granularities in the SAME call            {(d.combined_fine==d.gold).mean():6.1%}")
     print(f"  fine and Ekman BLIND, rules applied           {(A3==d.gold).mean():6.1%}")

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use this dataset or code, please cite the paper below.
-title: Call-efficient structured LLM annotation — data and code
+title: Call-efficient LLM annotation for gold-standard datasets — data and code
 abstract: >-
   Elicitations, gold labels, rule sets and a deterministic verifier for a structured
   LLM annotation method that decomposes a label into a hierarchy of granularities,

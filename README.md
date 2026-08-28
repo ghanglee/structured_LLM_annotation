@@ -1,7 +1,7 @@
 # Call-efficient structured LLM annotation — data and code
 
-Companion release for *Call-efficient and high-accuracy structured LLM annotation for
-gold-standard construction*.
+Companion release for *Call-efficient LLM annotation for gold-standard datasets by structured
+elicitation with rule-based verification*.
 
 The repository is split by what you want to do. The two halves are independent.
 
@@ -10,7 +10,9 @@ The repository is split by what you want to do. The two halves are independent.
 | **`method/`** | applying the method to your own taxonomy | Python 3.9+, nothing else |
 | **`reproduction/`** | recomputing every table in the paper | Python 3.9+, pandas, scipy |
 
-**Neither half calls a model or needs an API key.** The elicitations the paper reports are
+**Neither half calls a model or needs an API key**, with one clearly marked exception:
+`reproduction/baselines/rerun/` re-executes a baseline against a live model and is not needed to
+reproduce any table. The elicitations the paper reports are
 shipped as data, so all results recompute offline and at no cost. This matters more than
 convenience: the reference model is a dated snapshot and cannot be reproduced identically once
 it is retired, so the stored outputs are the only durable record of what was measured.
@@ -28,6 +30,7 @@ python verify.py --rules rules/goemotions.json \
 cd reproduction/scripts
 python reproduce_acc.py
 python reproduce_goemotions.py
+python reproduce_annollm_rerun.py
 ```
 
 ## What is here, and what is not

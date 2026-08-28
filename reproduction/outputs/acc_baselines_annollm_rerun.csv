@@ -1,0 +1,701 @@
+id,method,verdict,escalated,uncertainty,is_demo,calls_per_item,provisional_pro,provisional_con,Rationale
+1,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+2,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+3,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+4,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+5,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+6,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+7,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+8,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory statement about two doors connecting identified space types, verifiable from model space and door adjacency data."
+9,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on 'required reach depth' specified in an external table, so it is not self-contained."
+10,annollm_explanations_filled,,,,1,0,,,HELD OUT AS DEMONSTRATION
+11,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained conditional obligation whose sight lines can be computed from seating and wheelchair space geometry.
+12,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles several independent security provisions and requires monitoring by an external command center, not decidable from a model."
+13,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained mandatory sight-line requirement computable from seating geometry in the model.
+14,annollm_explanations_filled,No,0,,0,1.0,,,"Lists multiple items with the vague qualifier 'potentially', giving no single testable criterion."
+15,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory, quantified seating counts for a named room type, countable directly from the model."
+16,annollm_explanations_filled,No,0,,0,1.0,,,"Relies on the vague spatial term 'near lounge areas' and loose furniture provision, requiring subjective judgment."
+17,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory statement with an explicit countable quantity of workstations in a named space.
+18,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single obligation for a specific fixture with a stated property at a defined location, verifiable from model objects."
+19,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single quantified clearance rule with its exception stated in-text, checkable from geometry and material combustibility attributes."
+20,annollm_explanations_filled,No,0,,0,1.0,,,"Defers the determination to a Presidential Decree, so the criterion lies outside the sentence."
+21,annollm_explanations_filled,No,0,,0,1.0,,,"Combines three independently passing or failing limits (roof height, eave height, story count) in one provision."
+22,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory construction-type requirement for the first floor, determinable from the model's structural configuration."
+23,annollm_explanations_filled,No,0,,0,1.0,,,Offers alternative performance-based waterproofing strategies whose effectiveness requires engineering judgment or testing.
+24,annollm_explanations_filled,No,0,,0,1.0,,,"The exception hinges on equivalent-strength reinforcement, requiring structural analysis beyond model data."
+25,annollm_explanations_filled,No,0,,0,1.0,,,Garbled fragment interleaving guidance text and referring to external pollution prevention guidelines.
+26,annollm_explanations_filled,No,0,,0,1.0,,,"Prescribes a calculation time interval, a procedural matter not verifiable from model geometry or objects."
+27,annollm_explanations_filled,No,0,,0,1.0,,,"Applies to 'Category 1 or 2 buildings', a classification defined elsewhere, so it is not self-contained."
+28,annollm_explanations_filled,No,0,,0,1.0,,,"Requires design temperatures 'consistent with' intended use and occupancy schedules, a subjective analytical judgment."
+29,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative document submission with a permit application, not verifiable from model content."
+30,annollm_explanations_filled,No,0,,0,1.0,,,"Requires an energy-use rating derived from empirical analysis and a post-completion process, not model data."
+31,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative report submission triggered by comparison with original system capacity, external project data."
+32,annollm_explanations_filled,No,0,,0,1.0,,,Relies on the undefined external classification 'major use category' and bundles electricity and heat metering.
+33,annollm_explanations_filled,No,0,,0,1.0,,,"A definitional interpretation clause pointing to referenced standards, imposing no checkable obligation."
+34,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory single requirement on a ceiling finish material recorded in the model.
+35,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained obligation about separate adjacent spaces, decidable from room functions and adjacency in the model."
+36,annollm_explanations_filled,No,0,,0,1.0,,,Uses an external finish-schedule code (PNT-2) and bundles two distinct finish requirements.
+37,annollm_explanations_filled,No,0,,0,1.0,,,Truncated fragment ending in 'shall be 1.' with the substantive content residing in an external list.
+38,annollm_explanations_filled,No,0,,0,1.0,,,Performance requirement of reliability over service life needing durability analysis and judgment.
+39,annollm_explanations_filled,No,0,,0,1.0,,,Depends on project-specific design flow and water-quality data and offers alternative compliance paths.
+40,annollm_explanations_filled,No,0,,0,1.0,,,Combines a measurable cavity width with a workmanship condition (clear of mortar droppings) requiring site inspection.
+41,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional formula computable from occupant load and exit widths in the model.
+42,annollm_explanations_filled,No,0,,0,1.0,,,Performance statement on moisture damage and health hazard requiring physical testing and judgment.
+43,annollm_explanations_filled,No,0,,0,1.0,,,Exception hinges on subjective 'space precludes' and 'as near as possible' placement.
+44,annollm_explanations_filled,No,0,,0,1.0,,,Bundles many independent device-placement obligations across numerous locations.
+45,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption from area limits rather than imposing an obligation.
+46,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit minimum dimension measurable from route geometry in the model.
+47,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory dimensional range verifiable from fixture placement geometry.
+48,annollm_explanations_filled,No,0,,0,1.0,,,"Acoustic frequency performance of a signal requires physical testing, not model data."
+49,annollm_explanations_filled,No,0,,0,1.0,,,"Requires timed operational testing of a device, not derivable from model data."
+50,annollm_explanations_filled,No,0,,0,1.0,,,"Door dwell time is a dynamic performance behavior verified by timing, not by BIM geometry."
+51,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory rule whose trigger (storeys, floor area) and threshold (90 mm wall thickness) are all model geometry."
+52,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance depends on acoustic measurement and noise-character judgment, not model data."
+53,annollm_explanations_filled,No,0,,0,1.0,,,Reverberation time requires acoustic analysis/measurement beyond standard model information.
+54,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained single dimensional rule checkable from bar diameter and cover geometry in the model.
+55,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained single dimensional rule checkable from column reinforcement geometry in the model.
+56,annollm_explanations_filled,Yes,0,,0,1.0,,,"One mandatory requirement with two explicitly quantified alternative geometries, both verifiable from model dimensions and spacing."
+57,annollm_explanations_filled,No,0,,0,1.0,,,Relies on external durability grading and chemical treatment certification plus subjective 'risk of decay' assessment.
+58,annollm_explanations_filled,No,0,,0,1.0,,,"Although distance is model-derived, compliance requires the actual measured door-closing time of the installed elevator."
+59,annollm_explanations_filled,No,0,,0,1.0,,,Bundles several acoustic performance criteria requiring field measurement of frequency and sound level.
+60,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single quantified clearance requirement (1,500 mm turning circle) verifiable from room geometry in the model."
+61,annollm_explanations_filled,No,0,,0,1.0,,,Merely defers to an external standard without stating any testable criterion.
+62,annollm_explanations_filled,No,0,,0,1.0,,,"Closure on heat detection is a functional performance behavior requiring testing, not model checking."
+63,annollm_explanations_filled,No,0,,0,1.0,,,"'Secure storage' is a vague, subjective functional statement with no measurable criterion."
+64,annollm_explanations_filled,No,0,,0,1.0,,,'Controlled manner without detrimental pressure changes' is a performance outcome needing engineering analysis and judgment.
+65,annollm_explanations_filled,No,0,,0,1.0,,,"Concerns designer knowledge of external water-quality data, not any modelled building property."
+66,annollm_explanations_filled,No,0,,0,1.0,,,"Points to accessibility requirements defined elsewhere, so it is not self-contained."
+67,annollm_explanations_filled,No,0,,0,1.0,,,Hinges on subjective feasibility and historic-significance judgment with an unspecified alternative.
+68,annollm_explanations_filled,No,0,,0,1.0,,,Bundles multiple fittings and 'no disturbing fluctuations or noises' performance criteria requiring testing.
+69,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory single dimensional limit on a modeled space, checkable from geometry."
+70,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained mandatory minimum clear width measurable from parking space geometry.
+71,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained mandatory minimum clear width for van space, derivable from model geometry."
+72,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified minimum average height computable from crawl space geometry.
+73,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independent requirements (connection count and separation distance).
+74,annollm_explanations_filled,No,0,,0,1.0,,,"Device activation on sensing an obstruction requires physical/functional testing, not model data."
+75,annollm_explanations_filled,No,0,,0,1.0,,,Button numbering/ordering is not standard model data and several arrangement options are bundled.
+76,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained minimum distance measurable between modeled door and corner.
+77,annollm_explanations_filled,No,0,,0,1.0,,,"States three independent requirements (entrance width, landing width, self-closing fire door)."
+78,annollm_explanations_filled,Yes,0,,0,1.0,,,Single conditional obligation with geometric trigger and guard rail height both checkable in the model.
+79,annollm_explanations_filled,No,0,,0,1.0,,,Bundles multiple conditions and defers to consultation with the permitting authority.
+80,annollm_explanations_filled,Yes,0,,0,1.0,,,One quantified vertical separation with exceptions defined by presence of modeled shutters/sprinklers.
+81,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single self-contained clear-width rule along a turn, computable from accessible route geometry."
+82,annollm_explanations_filled,No,0,,0,1.0,,,"Exception depends on demonstrating no moisture damage, an external showing and judgment."
+83,annollm_explanations_filled,No,0,,0,1.0,,,Two distinct thresholds for pedestrian and vehicular routes that could pass or fail independently.
+84,annollm_explanations_filled,No,0,,0,1.0,,,Wording 'shall be permitted' grants permission rather than imposing an obligation.
+85,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified area limit derivable from load-bearing wall enclosure geometry.
+86,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete single prohibition on a circulation route computable from modeled spaces and paths.
+87,annollm_explanations_filled,No,0,,0,1.0,,,Depends on the externally defined 'large/extra-large courthouse' classification not given in the sentence.
+88,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory single area requirement with the courthouse size criterion defined within the sentence.
+89,annollm_explanations_filled,No,0,,0,1.0,,,States an exemption (not required) and depends on the minimum landing area specified in an external clause 405.7.
+90,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule whose trigger (floor area) and obligation (two or more stairs to ground/escape story) are both countable from model geometry.
+91,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory statement with an explicit area threshold and window-type property verifiable from model attributes.
+92,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained mandatory geometric requirement testable by sphere-passage computation on model geometry.
+93,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule with an explicit area threshold and countable stair provision derivable from the model.
+94,annollm_explanations_filled,No,0,,0,1.0,,,"Phrased as a relaxation ('not required to be open'), granting permission rather than imposing an obligation."
+95,annollm_explanations_filled,No,0,,0,1.0,,,Permissive ('are permitted to be') and bundles several independent dimensional conditions.
+96,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory, self-contained geometric criterion computable from ramp edge and floor geometry."
+97,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory requirement that the specified windows be openable, a property recorded in the model."
+98,annollm_explanations_filled,No,0,,0,1.0,,,"Garbled, incoherent fragment with no identifiable testable criterion and requiring external approval."
+99,annollm_explanations_filled,No,0,,0,1.0,,,Permissive allowance ('shall be permitted to protrude') rather than an obligation.
+100,annollm_explanations_filled,No,0,,0,1.0,,,"Truncated, ungrammatical fragment with no complete requirement."
+101,annollm_explanations_filled,No,0,,0,1.0,,,Grants permission for a mounting height rather than imposing a requirement.
+102,annollm_explanations_filled,No,0,,0,1.0,,,Truncated sentence that defers to the requirements of another paragraph.
+103,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory, self-contained count formula computable from the number of spaces in the model."
+104,annollm_explanations_filled,No,0,,0,1.0,,,"Permissive allowance for a reduction in knee clearance, not an obligation."
+105,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory, self-contained proportional requirement verifiable by counting accessible spaces in the model."
+106,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified clear-height obligation measurable directly from model geometry.
+107,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete conditional obligation whose trigger (storeys, protected lobby, corridor width) and required accessible route are derivable from model data."
+108,annollm_explanations_filled,No,0,,0,1.0,,,Planning-policy statement requiring judgment about public facility provision and external zoning data.
+109,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation with countable seats and wheelchair spaces derivable from the model.
+110,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory ratio rule over parking space counts and van-accessible classification available in the model.
+111,annollm_explanations_filled,No,0,,0,1.0,,,Threshold is set by an external administrative authority and opening force requires a physical test.
+112,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit mounting-height dimension verifiable from model geometry.
+113,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained dimensional requirement for clear pier space measurable against boat slip geometry.
+114,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified clear floor area per bed with explicit measurement conventions computable from geometry.
+115,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single quantified clear floor area with stated exclusions, computable from model geometry."
+116,annollm_explanations_filled,Yes,0,,0,1.0,,,Conditional obligation whose operative criterion is an explicit 1500 mm turning circle checkable from geometry.
+117,annollm_explanations_filled,No,0,,0,1.0,,,Refers to an obligation defined elsewhere and prescribes a counting procedure rather than a model-verifiable condition.
+118,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete conditional rule with explicit space threshold, ratio and charge-point rating available as model attributes."
+119,annollm_explanations_filled,No,0,,0,1.0,,,Functional performance of alarm activation can only be confirmed by physical test.
+120,annollm_explanations_filled,No,0,,0,1.0,,,"Prescribes how a physical test is conducted, not a model-verifiable design condition."
+121,annollm_explanations_filled,No,0,,0,1.0,,,"Operational signalling behaviour requires functional testing, and bundles registered- and answered-call indications."
+122,annollm_explanations_filled,No,0,,0,1.0,,,"Presence and function of a deactivation control is a device behaviour verified by inspection, not model data."
+123,annollm_explanations_filled,No,0,,0,1.0,,,"Visibility from a vaguely defined 'adjacent floor area' is a subjective, untestable criterion in a model."
+124,annollm_explanations_filled,No,0,,0,1.0,,,"Prohibits a use/purpose of an appliance, which is not represented or decidable in a BIM model."
+125,annollm_explanations_filled,No,0,,0,1.0,,,"Truncated, incomplete sentence with no stated criterion."
+126,annollm_explanations_filled,No,0,,0,1.0,,,'To the maximum extent practicable' and 'uniform locations' are subjective judgments.
+127,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation with countable shower fixtures per gendered facility in the model.
+128,annollm_explanations_filled,No,0,,0,1.0,,,Interpretive counting instruction depending on requirements stated in other provisions.
+129,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory geometric rule; ramp edge orientation relative to the modelled circulation path can be computed from the model.
+130,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained obligation to provide a clear deck space in a specified position, verifiable from seat and deck geometry."
+131,annollm_explanations_filled,No,0,,0,1.0,,,"The qualifier 'unless otherwise specified' defers to other clauses, so the rule is not self-contained."
+132,annollm_explanations_filled,No,0,,0,1.0,,,The trigger 'other well-defined edges' is a subjective classification that cannot be decided from model data.
+133,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified positioning requirement whose dimensions and relationship are fully stated and derivable from geometry.
+134,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory geometric requirement on one element (orientation and extent of grab bars) checkable from modelled pool wall and transfer wall.
+135,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory rule on opening orientation relative to the modelled travel path, decidable from geometry."
+136,annollm_explanations_filled,Yes,0,,0,1.0,,,"Whole, mandatory, single quantified slope limit computable from ramp geometry."
+137,annollm_explanations_filled,No,0,,0,1.0,,,'Shall be permitted' grants permission rather than imposing an obligation.
+138,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory connectivity requirement verifiable from structural element relationships in the model.
+139,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single obligation with two stated alternatives, both decidable from island, street and curb ramp geometry."
+140,annollm_explanations_filled,No,0,,0,1.0,,,"Whether patterns 'make it possible to climb' is a subjective judgment, not a model-derivable fact."
+141,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory quantified slope limits for one surface, all thresholds stated and computable from geometry."
+142,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule with an explicit cross-slope threshold measurable on modelled accessible routes.
+143,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete prohibition on elements below a stated height protruding past the building line, checkable from element geometry, swing and site line data."
+144,annollm_explanations_filled,No,0,,0,1.0,,,It defines when a design task is 'exceptionally difficult' using subjective criteria rather than imposing a checkable obligation.
+145,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory, self-contained requirement for signage elements at specified locations on hoistway jambs, verifiable from modelled components."
+146,annollm_explanations_filled,Yes,0,,0,1.0,,,Single handrail obligation with its exception fully stated in the sentence and decidable from stair/ramp and handrail placement.
+147,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete conditional obligation with explicit counts, checkable by counting modelled parking spaces."
+148,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory arrangement requirement for seats and an adjacent access route, verifiable from seating layout geometry."
+149,annollm_explanations_filled,No,0,,0,1.0,,,Accessibility 'for inspections and maintenance' is a vague performance criterion requiring subjective judgment.
+150,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained quantified trigger (floor area of living spaces) and a countable required facility.
+151,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule with explicit area threshold and a countable fixture in the model.
+152,annollm_explanations_filled,No,0,,0,1.0,,,"Requires classifying 'potentially flammable or explosive atmosphere' and judging fire/explosion-spread performance, not model data."
+153,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit numeric ratio applied to countable parking spaces in the model.
+154,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single dimensional limit on identified doors, verifiable from model geometry."
+155,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory single requirement on a door fire-rating attribute carried in the model.
+156,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional with explicit dimensions checkable from geometry and objects.
+157,annollm_explanations_filled,No,0,,0,1.0,,,Structural design for vehicle loads requires engineering analysis and external load data.
+158,annollm_explanations_filled,No,0,,0,1.0,,,'Immediate vicinity' is undefined and site-access adequacy is a judgment call.
+159,annollm_explanations_filled,No,0,,0,1.0,,,States an exemption rather than an obligation and relies on comparison to an average viewing angle.
+160,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation over countable fixtures and identified space types.
+161,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric positioning rule with an explicit offset dimension.
+162,annollm_explanations_filled,No,0,,0,1.0,,,Directs local ordinance-making rather than imposing a checkable condition on the building model.
+163,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption rather than imposing an obligation or prohibition.
+164,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory single material/reinforcement requirement on identifiable model elements.
+165,annollm_explanations_filled,No,0,,0,1.0,,,Requires structural load analysis and design judgment beyond model data.
+166,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory floor-finish material requirement for a named room, an attribute in the model."
+167,annollm_explanations_filled,No,0,,0,1.0,,,Interpretive definition applied to other daylighting/ventilation clauses rather than a standalone obligation.
+168,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory positional requirement for a layer, verifiable from wall assembly composition in the model."
+169,annollm_explanations_filled,No,0,,0,1.0,,,Relies on the externally defined 'Type 1 neighborhood living facilities' classification and bundles separate floor/wall and bathhouse/kitchen obligations.
+170,annollm_explanations_filled,No,0,,0,1.0,,,"Fixing masonry to the frame with bolts or 'other metal fittings' is an open-ended construction detail verified by inspection, not standard model data."
+171,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule whose rear-60% and viewing-angle-percentile criteria are computable from seating geometry in the model.
+172,annollm_explanations_filled,No,0,,0,1.0,,,"States a permission ('shall be permitted to overlap') plus a separate prohibition, so it is neither a single obligation nor uniformly mandatory."
+173,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained mandatory knee-clearance envelope with explicit dimensions measurable from model geometry.
+174,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete obligation that the named spaces be enclosed by fire-resistant construction, checkable from element fire-resistance attributes and adjacency."
+175,annollm_explanations_filled,No,0,,0,1.0,,,"It is an exemption ('shall not be required') conditioned on infeasibility due to terrain, a subjective, project-specific judgment."
+176,annollm_explanations_filled,No,0,,0,1.0,,,Deflection under total load requires structural/load analysis and testing data outside the model.
+177,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory requirement that each dwelling have a step-free entrance at street level, verifiable from level and circulation geometry."
+178,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory rule requiring wheelchair spaces and companion seats to be distributed around the encircled field, evaluable from seating layout."
+179,annollm_explanations_filled,No,0,,0,1.0,,,Phrased as an exemption relieving a requirement rather than imposing an obligation.
+180,annollm_explanations_filled,No,0,,0,1.0,,,Truncated fragment ending 'and to.' with no complete criterion.
+181,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory single adjacency requirement between named spaces, decidable from space layout in the model."
+182,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory space-adjacency requirement checkable from room relationships in the model.
+183,annollm_explanations_filled,No,0,,0,1.0,,,"It is an exemption from the accessible-route requirement, not an obligation or prohibition."
+184,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained conditional obligation that each storey of a two-storey apartment have exit access, verifiable from egress geometry."
+185,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory adjacency requirement between named rooms, decidable from modelled space relationships."
+186,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation whose trigger and required accessible route connection are both checkable from circulation geometry.
+187,annollm_explanations_filled,No,0,,0,1.0,,,Whether a lifting device 'can be used without assistance' is an operability judgment not decidable from model data.
+188,annollm_explanations_filled,No,0,,0,1.0,,,"Vague performance goals (restrict spread, safe evacuation, facilitate rescue) bundled together with no measurable criterion."
+189,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory statement whose spatial coincidence of accessible routes with general circulation paths is decidable from model geometry.
+190,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation testable from the interior/exterior attributes of paths and routes in the model.
+191,annollm_explanations_filled,Yes,0,,0,1.0,,,"Whole conditional rule requiring a countable fixture per floor/level/site, verifiable from model object counts and locations."
+192,annollm_explanations_filled,No,0,,0,1.0,,,"Applicability hinges on specific exceptions stated in other clauses, so it is not self-contained."
+193,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles many distinct, largely non-geometric security provisions requiring operational and subjective judgment."
+194,annollm_explanations_filled,No,0,,0,1.0,,,Relies on the externally defined term 'super-tall building' and bundles connection and spacing requirements that could fail independently.
+195,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles three separate provisions (stairway, emergency exit, ventilation duct) that could independently pass or fail."
+196,annollm_explanations_filled,No,0,,0,1.0,,,States an exemption from another provision rather than imposing an obligation.
+197,annollm_explanations_filled,No,0,,0,1.0,,,"Combines a prohibition on sanitary connection with a separate discharge-destination requirement, two independently testable obligations."
+198,annollm_explanations_filled,No,0,,0,1.0,,,Performance goal of 'integrity' via material 'compatibility' is not decidable from model data without expert judgment.
+199,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on the site-specific backwater level, external project data not contained in the sentence or model."
+200,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified connectivity requirement whose trap seal depth and drainage connection are model parameters.
+201,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory geometric requirement on pipe slope continuity that can be computed from routed pipe geometry.
+202,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained quantified limit on dead-leg pipe length measurable directly from model piping geometry.
+203,annollm_explanations_filled,No,0,,0,1.0,,,"Requires structural/thermal and acoustic performance analysis of supports, not decidable from model data alone."
+204,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption rather than an obligation and turns on judging whether information is usable in a transaction.
+205,annollm_explanations_filled,No,0,,0,1.0,,,"Functional operability of the lift requires physical testing, not model verification."
+206,annollm_explanations_filled,No,0,,0,1.0,,,Definitional/deeming provision that imposes no checkable obligation on the model.
+207,annollm_explanations_filled,No,0,,0,1.0,,,Design-analysis requirement about reduction factors that cannot be verified from BIM geometry or properties.
+208,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory geometric continuity requirement for handrails across the landing, checkable from model geometry."
+209,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule; bench back-support attribute or wall attachment is derivable from model objects.
+210,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained obligation; egress path from each occupied space to a refuge area avoiding adjacent tenant spaces is computable from model geometry and space assignments.
+211,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory material-type requirement checkable against element material attributes.
+212,annollm_explanations_filled,No,0,,0,1.0,,,Contractual submission/scheduling duty with no model-verifiable content.
+213,annollm_explanations_filled,No,0,,0,1.0,,,Contract administration and payment provision relying on subjective 'significantly change the character' judgment.
+214,annollm_explanations_filled,No,0,,0,1.0,,,States a crediting/calculation allowance for egress capacity rather than a verifiable design obligation.
+215,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles several obligations and requires inspection of hinge peening and pin removability, not model data."
+216,annollm_explanations_filled,No,0,,0,1.0,,,Continuous illumination is an operational condition requiring timed/field verification.
+217,annollm_explanations_filled,Yes,0,,0,1.0,,,"Mandatory construction-material requirement for identified storage spaces, checkable from space use and floor material attributes."
+218,annollm_explanations_filled,Yes,0,,0,1.0,,,Single obligation linking wall-earth contact geometry to a material property recorded in the model.
+219,annollm_explanations_filled,No,0,,0,1.0,,,"Threshold depends on the sign's externally listed viewing distance, data outside the model and the sentence."
+220,annollm_explanations_filled,Yes,0,,0,1.0,,,Presence of a release mechanism at each door or a redundant remote release control is a countable component check.
+221,annollm_explanations_filled,No,0,,0,1.0,,,Trigger 'where falling danger exists' is a subjective judgment not decidable from the model.
+222,annollm_explanations_filled,No,0,,0,1.0,,,"Prohibition hinges on the undefined vague term 'near', giving no measurable criterion."
+223,annollm_explanations_filled,No,0,,0,1.0,,,The required rating is set by external construction-type tables rather than stated in the sentence.
+224,annollm_explanations_filled,No,0,,0,1.0,,,"Live load reduction permission concerns structural design analysis, not model-recorded facts."
+225,annollm_explanations_filled,No,0,,0,1.0,,,Definitional clause combining an area ratio with a vague 'equally distributed' condition.
+226,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation verifiable by counting designated accessible parking spaces in the model.
+227,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit 2-hour fire-resistance rating checkable against element rating attributes.
+228,annollm_explanations_filled,No,0,,0,1.0,,,Requires geotechnical capacity analysis and soil data external to the model.
+229,annollm_explanations_filled,No,0,,0,1.0,,,"Performance goal about avoiding 'adverse effects' from settlement requires geotechnical analysis and judgment, not model data."
+230,annollm_explanations_filled,No,0,,0,1.0,,,Bundles many independent valve-location obligations that could pass or fail separately.
+231,annollm_explanations_filled,No,0,,0,1.0,,,It is a calculation/rounding convention rather than a self-contained obligation verifiable against model elements.
+232,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory geometric rule with explicit 300 mm dimension derivable from handrail and stair geometry.
+233,annollm_explanations_filled,No,0,,0,1.0,,,"Operating-force limit requires physical testing of the door, not model information."
+234,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained conditional obligation on stairway extent and roof slope, both computable from model geometry."
+235,annollm_explanations_filled,No,0,,0,1.0,,,Trigger depends on facility licensing and length-of-stay operational data external to the model.
+236,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory spatial requirement for a named station located outside a modeled soundlock entrance.
+237,annollm_explanations_filled,No,0,,0,1.0,,,Definitional area-computation rule rather than an obligation whose compliance can be judged.
+238,annollm_explanations_filled,Yes,0,,0,1.0,,,Mandatory presence of curb ramps or sloped areas at walkway intersections is verifiable from modeled site geometry.
+239,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified ratio of accessible cells countable directly from the model.
+240,annollm_explanations_filled,No,0,,0,1.0,,,Requires project-specific scope-of-alteration data and an ongoing cumulative condition beyond the model.
+241,annollm_explanations_filled,No,0,,0,1.0,,,It grants an exemption and hinges on the subjective judgment that elevation is 'essential to the function'.
+242,annollm_explanations_filled,No,0,,0,1.0,,,"Durability performance against soil pressure, corrosion and subsidence needs testing and analysis, and bundles several criteria."
+243,annollm_explanations_filled,No,0,,0,1.0,,,Design-to-resist-uplift performance requirement demands structural analysis and an undefined 'where applicable' trigger.
+244,annollm_explanations_filled,No,0,,0,1.0,,,"Marking permanence must be verified by physical inspection of the product, not from a BIM model."
+245,annollm_explanations_filled,No,0,,0,1.0,,,Requires an external floodway analysis and project-specific flood data.
+246,annollm_explanations_filled,Yes,0,,0,1.0,,,Single countable connection requirement (minimum two bolts) resolvable from modeled connection data.
+247,annollm_explanations_filled,No,0,,0,1.0,,,"Construction sequencing and grouting material must be verified on site, not from the model."
+248,annollm_explanations_filled,No,0,,0,1.0,,,Garbled fabrication/installation statement with no measurable criterion checkable in a model.
+249,annollm_explanations_filled,No,0,,0,1.0,,,"Permissive 'shall be permitted' rather than an obligation, and indirect connection compliance is a plumbing installation matter."
+250,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory single volume limit computable from model geometry of curtain-board reservoirs.
+251,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation with a numeric volume threshold derivable from room geometry and ventilation attribute.
+252,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single explicit volume cap on fire compartments, checkable from compartment geometry and occupancy data."
+253,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory statement with an explicit minimum volume verifiable from the vault's modelled geometry.
+254,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single quantified ratio between crawl-space volume and floor area above, computable from model geometry."
+255,annollm_explanations_filled,No,0,,0,1.0,,,States a calculation definition with no pass/fail criterion to evaluate.
+256,annollm_explanations_filled,No,0,,0,1.0,,,"Calculation procedure depending on external design flow rate and duration data, with no threshold to check."
+257,annollm_explanations_filled,No,0,,0,1.0,,,Definitional calculation method rather than a checkable obligation with a criterion.
+258,annollm_explanations_filled,No,0,,0,1.0,,,Performance requirement needing fire/smoke engineering analysis beyond model data.
+259,annollm_explanations_filled,No,0,,0,1.0,,,Depends on an externally established reference value and thermal transmission analysis.
+260,annollm_explanations_filled,No,0,,0,1.0,,,Requires annual energy simulation results external to the model and sets no limit.
+261,annollm_explanations_filled,No,0,,0,1.0,,,Trigger relies on externally classified stored liquid quantities and bundles two independent obligations.
+262,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory 2-hour separation requirement checkable against modelled fire-resistance ratings of the room enclosure.
+263,annollm_explanations_filled,No,0,,0,1.0,,,"Measurement definition rather than a compliance criterion, with several bundled inclusion rules."
+264,annollm_explanations_filled,No,0,,0,1.0,,,Requires design fire heat release rate and smoke density from empirical engineering analysis.
+265,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit positional tolerance measurable between modelled pile centres and grid lines.
+266,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory geometric alignment condition verifiable from nosing coordinates in the model.
+267,annollm_explanations_filled,No,0,,0,1.0,,,Construction-sequence requirement ('before framing') needing site verification rather than model data.
+268,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified collinearity tolerance computable from modelled roof drain centrelines.
+269,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory single geometric requirement checkable from model coordinates of fascia tops and wall plates.
+270,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained mandatory alignment rule with an explicit 5 mm tolerance, computable from handrail and support geometry."
+271,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance hinges on 'no abrupt change in direction or height', an unquantified subjective judgment."
+272,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified alignment requirement with the baseline defined in the sentence and post positions available in the model.
+273,annollm_explanations_filled,Yes,0,,0,1.0,,,"One collinearity requirement with an explicit 12 mm tolerance, verifiable from reinforcement centreline geometry."
+274,annollm_explanations_filled,No,0,,0,1.0,,,"Final criterion depends on whether the row 'appears straight' to a viewer, a subjective visual judgment."
+275,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory collinearity of adjacent panel top plates, decidable from model geometry alone."
+276,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit 5 mm dimensional limit on a gap that is directly derivable from panel geometry.
+277,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete obligation requiring collinear opening centrelines across floors, computable from model geometry."
+278,annollm_explanations_filled,No,0,,0,1.0,,,"Exception rests on a supplementary structural analysis, an external engineering study not contained in the model."
+279,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single self-contained collinearity requirement for joint faces in plan and elevation, checkable from slab geometry."
+280,annollm_explanations_filled,No,0,,0,1.0,,,"Sealant capacity to accommodate movement without tearing or debonding requires material testing, not model data."
+281,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory single concentricity rule verifiable from guard and column axes in the model.
+282,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single concentricity requirement between sleeve and pipe, decidable from modelled component axes."
+283,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained geometric requirement that handrail helix and centre column share an axis, computable from model geometry."
+284,annollm_explanations_filled,Yes,0,,0,1.0,,,Concentricity with an explicit 5 mm offset tolerance forms one quantified check on modelled positions.
+285,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory concentricity of column within pile cap, verifiable from model centroids."
+286,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independent criteria—hole concentricity and a 25% diameter limit—that could separately pass or fail.
+287,annollm_explanations_filled,No,0,,0,1.0,,,"Combines concentricity, uniform thickness and an externally specified 'design minimum' thickness not given in the sentence."
+288,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single concentricity obligation for pipe within sleeve, with the uniform-gap clause merely stating its purpose."
+289,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independently testable obligations (concentricity and a 25 mm clearance) in one sentence.
+290,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation with a single geometric concentricity check derivable from model geometry.
+291,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified gap-uniformity tolerance measurable directly from modelled kerb and dome geometry.
+292,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained axis-coincidence requirement checkable from column and stair geometry.
+293,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit dimensional minimum measurable between modelled column face and tread nosings.
+294,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory statement imposing one tangency condition computable from handrail geometry.
+295,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric tangency requirement between modelled curved and straight wall segments.
+296,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single tangency condition at kerb junctions, decidable from modelled alignment geometry."
+297,annollm_explanations_filled,Yes,0,,0,1.0,,,One self-contained geometric requirement on tread orientation relative to the circular plan path.
+298,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory tangency condition at a defined point, computable from ramp and landing geometry."
+299,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained requirement with an explicit slope-change limit and distance, measurable from surface geometry."
+300,annollm_explanations_filled,Yes,0,,0,1.0,,,Tangency with an explicit 5-degree angular-break limit is measurable; the flow clause is only rationale.
+301,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit 1500 mm separation between curvature start and door opening is computable from model geometry.
+302,annollm_explanations_filled,Yes,0,,0,1.0,,,Single tangency requirement with a quantified 1-degree limit derivable from ramp geometry.
+303,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric tangency requirement between modelled curved and straight wall surfaces.
+304,annollm_explanations_filled,No,0,,0,1.0,,,Bundles a vague placement criterion ('upper parts of walls') with a separate visibility condition.
+305,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory line-of-sight condition computable from appliance positions and room geometry.
+306,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified coverage-radius limit checkable against modelled appliance locations and floor areas.
+307,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on an occupant's eye position lying in bed, an anthropometric assumption not contained in the model or sentence."
+308,annollm_explanations_filled,No,0,,0,1.0,,,"Relies on furniture arrangement at an undefined 'standard bed location', external project-specific data."
+309,annollm_explanations_filled,No,0,,0,1.0,,,Requires operational signalling behavior (call registered/answered) that cannot be verified from static model data.
+310,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained obligation whose line-of-sight from the floor area in front of the panel is computable from model geometry.
+311,annollm_explanations_filled,No,0,,0,1.0,,,Depends on photometric 'illuminated field' performance and bundles coverage plus visibility from a lying position.
+312,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single geometric obstruction check against door swings, furniture and fixtures, decidable from a populated model."
+313,annollm_explanations_filled,No,0,,0,1.0,,,Relies on the externally defined set of locations 'required for audible alarm devices' rather than criteria stated in the sentence.
+314,annollm_explanations_filled,No,0,,0,1.0,,,"Hinges on an occupant's 'primary workstation' and 'normal working position', project-specific and subjective data not in a model."
+315,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation comparing countable accessible lockers in each locker room.
+316,annollm_explanations_filled,No,0,,0,1.0,,,"'Dispersed throughout' gives no measurable criterion, requiring subjective judgment."
+317,annollm_explanations_filled,No,0,,0,1.0,,,'Concentrated in a single area' is undefined and not machine-decidable.
+318,annollm_explanations_filled,Yes,0,,0,1.0,,,The 'so that' clause supplies an explicit 3 m distance criterion measurable between modeled telephone locations.
+319,annollm_explanations_filled,No,0,,0,1.0,,,'Distributed uniformly throughout all designated seating zones' lacks any quantified test.
+320,annollm_explanations_filled,No,0,,0,1.0,,,"'Single row or area' bundles two conditions and 'area' is undefined, requiring subjective judgment."
+321,annollm_explanations_filled,No,0,,0,1.0,,,"'Comparable decision points' and users being able to 'reliably predict' are subjective, non-model criteria."
+322,annollm_explanations_filled,No,0,,0,1.0,,,Bundles uniform distribution with a vague 'disproportionately greater distance' judgment.
+323,annollm_explanations_filled,No,0,,0,1.0,,,States a measurement convention/definition rather than imposing a checkable obligation.
+324,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit numeric slope limit verifiable from route surface geometry.
+325,annollm_explanations_filled,No,0,,0,1.0,,,Combines a parallelism requirement with a separate condition about not crossing an active travel lane.
+326,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric alignment requirement decidable from aisle orientations in the model.
+327,annollm_explanations_filled,No,0,,0,1.0,,,Depends on an undefined 'general customer flow path' and mixes offset and route-length conditions.
+328,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles bench orientation, clear floor space dimensions and its placement as independently failing requirements."
+329,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory geometric condition on wall orientation relative to the nosing line, decidable from model geometry."
+330,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained dimensional/orientation requirement verifiable from counter geometry in the model.
+331,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit minimum length with the rationale only as purpose; length is directly measurable in the model.
+332,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory statement expressing one orientation rule computable from ramp and curb geometry.
+333,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric perpendicularity requirement between modeled posts and floor/ramp surfaces.
+334,annollm_explanations_filled,Yes,0,,0,1.0,,,"One orientation requirement between drain body axis and roof surface, checkable from model geometry."
+335,annollm_explanations_filled,Yes,0,,0,1.0,,,Bracing orientation relative to the modeled primary framing direction is a single geometric check.
+336,annollm_explanations_filled,Yes,0,,0,1.0,,,Single orientation requirement between modeled accessible route and approach lane geometry.
+337,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit minimum clear width measurable directly from the modeled route.
+338,annollm_explanations_filled,Yes,0,,0,1.0,,,Slot orientation relative to the modeled accessible route direction is one computable geometric check.
+339,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit dimensional limit measurable from modeled slot geometry.
+340,annollm_explanations_filled,No,0,,0,1.0,,,"A construction tolerance for deviation from plumb requires physical field measurement, not idealized model geometry."
+341,annollm_explanations_filled,Yes,0,,0,1.0,,,Flushness of stud faces with plate faces is a single geometric alignment check in the model.
+342,annollm_explanations_filled,Yes,0,,0,1.0,,,"One orientation requirement between grating corrugation direction and travel direction, both modelable."
+343,annollm_explanations_filled,Yes,0,,0,1.0,,,Explicit single dimensional limit on corrugation height derivable from component geometry/parameters.
+344,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained orientation requirement for the ramp slope, with the 'so that' clause as purpose only."
+345,annollm_explanations_filled,Yes,0,,0,1.0,,,Single spatial non-encroachment condition testable by intersecting flared sides with the adjacent path of travel.
+346,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles several independently failing conditions (constant height, 300 mm extension, return termination)."
+347,annollm_explanations_filled,No,0,,0,1.0,,,"States three separate dimensional criteria (travel distance, floor area, opening width) that could pass or fail independently."
+348,annollm_explanations_filled,No,0,,0,1.0,,,"Performance wording about shedding water and resisting creep loading requires engineering analysis and judgment, not model data."
+349,annollm_explanations_filled,No,0,,0,1.0,,,Requires empirical service-life and watertightness performance testing and bundles multiple obligations.
+350,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independent requirements: stairway extension to roof and 2-hour enclosure rating.
+351,annollm_explanations_filled,No,0,,0,1.0,,,Combines a landing dimension requirement with a separate door swing-direction requirement.
+352,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory, self-contained requirement verifiable from handrail and stair geometry in the model."
+353,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory placement requirement checkable from grab bar and shower enclosure data.
+354,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single self-contained obligation on hardware placement, verifiable from modelled door components."
+355,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory placement rule checkable from outlet locations relative to workbench geometry.
+356,annollm_explanations_filled,Yes,0,,0,1.0,,,Single countable equality requirement on accessible fixtures derivable from model fixture data.
+357,annollm_explanations_filled,No,0,,0,1.0,,,States two independently failable attributes (equal height and equal projection) with a subjective symmetry rationale.
+358,annollm_explanations_filled,No,0,,0,1.0,,,Adds a functional condition about vehicle doors opening fully that cannot be decided from model data alone.
+359,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric alignment requirement decidable from parking bay and aisle coordinates.
+360,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles symmetry, distance, height and orientation criteria that could independently pass or fail."
+361,annollm_explanations_filled,No,0,,0,1.0,,,Depends on subjective visual contrast and an undefined 'eye level' threshold.
+362,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained prohibition checkable from stairway openings and occupancy classification in the model.
+363,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation with an explicit area threshold and named access elements verifiable in the model.
+364,annollm_explanations_filled,Yes,0,,0,1.0,,,Single prohibition testable by intersecting kiosk geometry with the required accessible route.
+365,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified clear-width requirement computable from walkway geometry.
+366,annollm_explanations_filled,Yes,0,,0,1.0,,,Single locational requirement verifiable from door position relative to the modelled accessible route.
+367,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified clear-opening dimension measurable from door geometry in the model.
+368,annollm_explanations_filled,No,0,,0,1.0,,,Combines an area-ratio limit with a separate access-provision requirement that could fail independently.
+369,annollm_explanations_filled,No,0,,0,1.0,,,"Relies on externally defined 'required natural light or ventilation' and a subjective judgment of obstruction, and covers two distinct conditions."
+370,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independently failing conditions (no travel through non-accessible rooms and a comparative path-length limit) and depends on an externally defined accessible-route classification.
+371,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained mandatory rule verifiable by presence of independent supports on each side of the wall in the model.
+372,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory rule; sleeve presence around pipes in masonry walls is directly derivable from model objects and geometry.
+373,annollm_explanations_filled,No,0,,0,1.0,,,Depends on an externally specified 'required rating period' and on fire-test/listing evidence rather than model data.
+374,annollm_explanations_filled,No,0,,0,1.0,,,Requires a 'listed' enclosure whose certification and rating maintenance cannot be established from the model alone.
+375,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained comparison of the access panel's rating attribute with that of the host assembly in the model.
+376,annollm_explanations_filled,No,0,,0,1.0,,,States two independent hardware performance requirements whose operation would be verified by inspection/testing.
+377,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit numeric cover dimension measurable from embedded conduit and slab geometry.
+378,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single quantified area-ratio limit computable from shaft and equipment geometry, with the trailing clause merely rationale."
+379,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit clear-dimension requirement measurable from shaft geometry in the model.
+380,annollm_explanations_filled,Yes,0,,0,1.0,,,Single conditional obligation; access doors at fire compartment boundary crossings are countable objects in the model.
+381,annollm_explanations_filled,No,0,,0,1.0,,,Combines a location/access requirement and a dimensional requirement that could pass or fail independently.
+382,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory placement rule verifiable from the seat and control positions in the model.
+383,annollm_explanations_filled,Yes,0,,0,1.0,,,Single self-contained connectivity requirement decidable by path analysis over modeled floors and egress components.
+384,annollm_explanations_filled,Yes,0,,0,1.0,,,Single conditional geometric rule with an explicit threshold and exit positions available in the model.
+385,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory connectivity requirement checkable from the modeled system topology between collector and storage vessel.
+386,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit spacing limit measurable from anchorage positions along the guardrail.
+387,annollm_explanations_filled,No,0,,0,1.0,,,"Load-resistance without permanent deformation requires structural testing or analysis, not model data."
+388,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles sealing, fastening and performance-against-uplift/expansion requirements verifiable only by inspection or testing."
+389,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory single rule with an explicit length limit on flexible duct connections at VAV terminals, verifiable from model geometry and connections."
+390,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained mandatory requirement for continuous gripping-surface connection between defined start and end points, decidable from handrail geometry in the model."
+391,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete obligation that the corner fitting maintain the same gripping-surface height and cross-section, checkable by comparing modelled handrail geometry."
+392,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified geometric limit (19 mm gap) stated fully in the sentence and measurable from model geometry.
+393,annollm_explanations_filled,No,0,,0,1.0,,,Bundles two independent obligations (fixing spacing and a bonded membrane patch at each fixing) and relies on fastener-level detail not held in a standard model.
+394,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on the 'highest designed water level', project-specific drainage analysis data external to the model."
+395,annollm_explanations_filled,No,0,,0,1.0,,,"Requires calculation reporting and submission to an authority within a time limit, an administrative and timed act outside the model."
+396,annollm_explanations_filled,No,0,,0,1.0,,,"Aim is commissioning measurement and verification against design values, requiring physical testing rather than model data."
+397,annollm_explanations_filled,No,0,,0,1.0,,,"Documentation-submission duty on an applicant, not a physical or spatial condition representable in a model."
+398,annollm_explanations_filled,No,0,,0,1.0,,,"Prescribes the content and format of an energy performance certificate document, an administrative deliverable outside BIM."
+399,annollm_explanations_filled,No,0,,0,1.0,,,"Requires provision of a rating document containing calculated energy values, external documentation and empirical analysis rather than model geometry."
+400,annollm_explanations_filled,No,0,,0,1.0,,,"Requires a physical air-tightness test and a retained report by an accredited body, not checkable from a model."
+401,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative duty to hand a test report to the owner, with no model-representable condition."
+402,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory single requirement that signage with the ISA be present on accessible routes to accessible parking, both objects modellable and countable."
+403,annollm_explanations_filled,No,0,,0,1.0,,,"Specifies contents of a fire safety plan document and bundles many independent items, an external deliverable rather than a model condition."
+404,annollm_explanations_filled,No,0,,0,1.0,,,"Legibility of a drawing scale is a subjective judgment about a document, not a model-checkable property."
+405,annollm_explanations_filled,No,0,,0,1.0,,,"Concerns administrative assignment of parking spaces to individuals, operational information not held in a building model."
+406,annollm_explanations_filled,No,0,,0,1.0,,,"Operational availability to permit holders is a management matter, not a physical attribute decidable from a model."
+407,annollm_explanations_filled,No,0,,0,1.0,,,"Requires a comparative demonstration across fire, structural and accessibility provisions with reference to external requirements and professional judgment."
+408,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation whose trigger (height above the lowest fire-department-accessible level) and requirement (sprinkler coverage of floors above) are both derivable from model geometry and systems data.
+409,annollm_explanations_filled,No,0,,0,1.0,,,"Requires operational status of a system and construction/occupancy sequencing in time, which cannot be verified from a static model."
+410,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory area-ratio limit with the threshold and summation rule stated, computable from model geometry."
+411,annollm_explanations_filled,No,0,,0,1.0,,,Depends on reference-facade U-values and thermal performance data not contained in the sentence or a standard model.
+412,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation about countable accessible compartments in modelled toilet rooms.
+413,annollm_explanations_filled,No,0,,0,1.0,,,States a calculation definition rather than an obligation with a testable threshold.
+414,annollm_explanations_filled,No,0,,0,1.0,,,Defines what the computed volume excludes rather than imposing a checkable performance criterion.
+415,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory mounting-height rule with explicit dimensions verifiable from model geometry.
+416,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole prohibition whose spatial relation between appliance and partition is decidable from model placement.
+417,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete obligation for a sign whose presence, side of door and sight line from the stairwell are derivable from model geometry."
+418,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional sight-line requirement computable from signal and call-button positions.
+419,annollm_explanations_filled,No,0,,0,1.0,,,The 'distributed uniformly' criterion is vague and it bundles equal-number and distribution requirements that could fail independently.
+420,annollm_explanations_filled,No,0,,0,1.0,,,'Consistent locations throughout the facility' is a subjective judgment bundled with the separate height requirement.
+421,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single mandatory provision of accessible seating per balcony level, countable from the model."
+422,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete prohibition verifiable by checking whether accessible seating exists only on ground floor or rear balcony.
+423,annollm_explanations_filled,No,0,,0,1.0,,,"Air velocity in the occupied zone requires airflow simulation or measurement, not model data."
+424,annollm_explanations_filled,Yes,0,,0,1.0,,,Single explicit geometric collinearity tolerance checkable from modelled penetration and riser centrelines.
+425,annollm_explanations_filled,Yes,0,,0,1.0,,,Single geometric collinearity requirement on tread nosings derivable from stair geometry.
+426,annollm_explanations_filled,Yes,0,,0,1.0,,,Concentricity of flange with pipe bore is a single geometric condition present in modelled piping components.
+427,annollm_explanations_filled,No,0,,0,1.0,,,Bolt-circle geometry and gasket compression behaviour lie outside a standard model's level of detail and imply a physical outcome.
+428,annollm_explanations_filled,Yes,0,,0,1.0,,,Concentric anchor-bolt arrangement with equal spacing and radius is one geometric pattern computable from modelled positions.
+429,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory rule whose concentricity and 5 mm gap limit are geometric checks derivable from model geometry.
+430,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained conditional obligation with a parallelism relation between marked space boundaries and the traffic lane, decidable from model geometry."
+431,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single, whole mandatory statement whose centring of clear floor space on the fountain is verifiable from model geometry."
+432,annollm_explanations_filled,Yes,0,,0,1.0,,,One self-contained geometric requirement relating the clear floor space orientation to the mounting wall.
+433,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory orientation rule comparing ramp slope direction to the modelled accessible route approach path.
+434,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete conditional obligation with a purely geometric parallelism check against the kerb line.
+435,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional with a single dimensional criterion (within 300 mm of each side) measurable in the model.
+436,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory geometric orientation requirement; the purpose clause merely restates the perpendicularity intent.
+437,annollm_explanations_filled,Yes,0,,0,1.0,,,One mandatory orientation rule whose travel direction is derivable from the modelled transfer seat and control positions.
+438,annollm_explanations_filled,No,0,,0,1.0,,,The qualifying condition of uniform bearing without shimming is a construction-quality matter requiring physical inspection.
+439,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance rests on installed plumbness and a subjectively 'consistent' visible surface, needing site inspection rather than model data."
+440,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles two independently failing criteria, a minimum width and a maximum gradient change at the tangent."
+441,annollm_explanations_filled,Yes,0,,0,1.0,,,"Single self-contained geometric tangency requirement between pipe centrelines, computable from model geometry."
+442,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete conditional stating one tangency/continuity condition at the landing-to-ramp transition, checkable geometrically."
+443,annollm_explanations_filled,Yes,0,,0,1.0,,,Conditional obligation reducible to comparing counts of accessible fixtures in the two modelled facilities.
+444,annollm_explanations_filled,No,0,,0,1.0,,,"States two separable requirements, equal height and identical gripping profile, the latter also a form judgment."
+445,annollm_explanations_filled,Yes,0,,0,1.0,,,Single mandatory requirement for switches on both door sides with a positional qualifier verifiable from modelled locations.
+446,annollm_explanations_filled,Yes,0,,0,1.0,,,Conditional obligation whose reach from both sides and explicit 1370 mm height limit are geometric checks.
+447,annollm_explanations_filled,Yes,0,,0,1.0,,,"Self-contained topological requirement on door connectivity to the accessible route, decidable from model space adjacency."
+448,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete mandatory rule counting accessible restrooms per elevator-served floor, derivable from model space data."
+449,annollm_explanations_filled,Yes,0,,0,1.0,,,Complete mandatory single rule; restroom accessibility and route connectivity are derivable from model spaces and circulation geometry.
+450,annollm_explanations_filled,No,0,,0,1.0,,,"Requires a 'listed' enclosure and restoration of a fire-resistance rating, which depend on certification and testing rather than model data."
+451,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified positional tolerance (within 150 mm of the ceiling plane) checkable from sprinkler and ceiling geometry.
+452,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance hinges on a listed, rating-preserving enclosure, i.e., product certification and test evidence outside the model."
+453,annollm_explanations_filled,No,0,,0,1.0,,,Bundles a routing prohibition with thermal/condensation performance outcomes that require empirical analysis.
+454,annollm_explanations_filled,No,0,,0,1.0,,,The 3% leakage limit can only be established by physical duct leakage testing.
+455,annollm_explanations_filled,No,0,,0,1.0,,,"Requiring a joint that allows movement 'without transferring load' demands structural analysis and engineering judgment, not model attributes."
+456,annollm_explanations_filled,No,0,,0,1.0,,,Load and deflection performance under a 1.5 kN force requires structural testing or analysis beyond the model.
+457,annollm_explanations_filled,No,0,,0,1.0,,,Recording intervals and 12-month data storage are operational/timed performance matters not verifiable from a BIM model.
+458,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation whose 1/20 floor-area opening ratio is computable from room and window geometry.
+459,annollm_explanations_filled,Yes,0,,0,1.0,,,Whole mandatory statement with an explicit dimensional threshold measurable from model geometry.
+460,annollm_explanations_filled,Yes,0,,0,1.0,,,Single quantified spacing rule; intervals between passing places along a route are measurable in the model.
+461,annollm_explanations_filled,Yes,0,,0,1.0,,,Geometric tolerance on gap concentricity/uniformity fully specified and computable from slab and column geometry.
+462,annollm_explanations_filled,Yes,0,,0,1.0,,,Equality of aisle widths is a self-contained dimensional comparison derivable from parking layout geometry.
+463,annollm_explanations_filled,No,0,,0,1.0,,,"Requires an energy audit record, i.e., documentation and empirical assessment outside the model."
+464,annollm_explanations_filled,No,0,,0,1.0,,,Section heading fragment with no obligation or criterion.
+465,annollm_explanations_filled,No,0,,0,1.0,,,Mere cross-reference to clause 405.7; criteria are not contained in the sentence.
+466,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to section 308 provides no self-contained testable criterion.
+467,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to section 808 with no stated requirement content.
+468,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to section 238 with no self-contained criterion.
+469,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance is deferred to external section 303, so the sentence is not self-contained."
+470,annollm_explanations_filled,No,0,,0,1.0,,,Requirement points to outside clause 225 without stating any criterion.
+471,annollm_explanations_filled,No,0,,0,1.0,,,Merely cross-references section 231 rather than stating a testable criterion.
+472,annollm_explanations_filled,No,0,,0,1.0,,,Substance lies entirely in the cited section 239.
+473,annollm_explanations_filled,No,0,,0,1.0,,,"Refers to section 407 and an external ASME standard, neither contained in the sentence."
+474,annollm_explanations_filled,No,0,,0,1.0,,,Only a cross-reference to section 235.
+475,annollm_explanations_filled,No,0,,0,1.0,,,Grants permission ('shall be permitted') rather than imposing an obligation.
+476,annollm_explanations_filled,No,0,,0,1.0,,,"Criterion is located in cited section 240.2, not in the sentence."
+477,annollm_explanations_filled,No,0,,0,1.0,,,Compliance defined by external clause 404.3.
+478,annollm_explanations_filled,No,0,,0,1.0,,,Requirement content resides in referenced clause 404.2.6.
+479,annollm_explanations_filled,No,0,,0,1.0,,,'Integral part of the seating plan' is a subjective design judgment with no measurable criterion.
+480,annollm_explanations_filled,No,0,,0,1.0,,,States an exemption from a cited clause rather than a checkable obligation.
+481,annollm_explanations_filled,No,0,,0,1.0,,,"Explanatory advisory statement about roll resistance, not a requirement."
+482,annollm_explanations_filled,No,0,,0,1.0,,,Clearance values are contained in the referenced clause 404.2.4.
+483,annollm_explanations_filled,No,0,,0,1.0,,,Dimensions deferred to cited section 404.2.4.
+484,annollm_explanations_filled,No,0,,0,1.0,,,Permissive allowance rather than an obligation or prohibition.
+485,annollm_explanations_filled,No,0,,0,1.0,,,"Hedged advisory recommendation ('preferably') with explanatory rationale, not a mandatory rule."
+486,annollm_explanations_filled,No,0,,0,1.0,,,Exemption relieving a requirement rather than imposing one.
+487,annollm_explanations_filled,No,0,,0,1.0,,,Conditions are defined in cited clauses 407.2.1 and 309.4.
+488,annollm_explanations_filled,No,0,,0,1.0,,,Depends on golf car dimensions and maneuvering performance data external to the sentence and model.
+489,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative scoping clause depending on other chapters, not a model-checkable requirement."
+490,annollm_explanations_filled,No,0,,0,1.0,,,Requirement's substance is deferred to external section 806.2.3.
+491,annollm_explanations_filled,No,0,,0,1.0,,,States an exemption and relies on external sections 904.3 and 703.7.2.1.
+492,annollm_explanations_filled,No,0,,0,1.0,,,"Advisory commentary ('not recommended'), not an obligation."
+493,annollm_explanations_filled,No,0,,0,1.0,,,Blanket cross-reference to sections 227 and 904 with no self-contained criterion.
+494,annollm_explanations_filled,No,0,,0,1.0,,,Explanatory advisory statement with no obligation or testable criterion.
+495,annollm_explanations_filled,No,0,,0,1.0,,,Definition of what counts as toe clearance rather than a mandatory requirement.
+496,annollm_explanations_filled,No,0,,0,1.0,,,Grants permission ('shall be permitted') rather than imposing an obligation.
+497,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external section 902 and the vague notion of being 'dispersed'.
+498,annollm_explanations_filled,Yes,0,,0,1.0,,,Self-contained conditional obligation on countable fixtures verifiable from model space and equipment data.
+499,annollm_explanations_filled,No,0,,0,1.0,,,"Definitional exclusion clarifying terminology, not an obligation."
+500,annollm_explanations_filled,No,0,,0,1.0,,,Scoping clause whose content is entirely in referenced section 232.
+501,annollm_explanations_filled,No,0,,0,1.0,,,"'Maximum extent feasible' and 'readily accessible and usable' require subjective, project-specific judgment."
+502,annollm_explanations_filled,No,0,,0,1.0,,,"Advisory list of open-ended decision factors, not a checkable rule."
+503,annollm_explanations_filled,No,0,,0,1.0,,,"Descriptive definition of a system, imposing no obligation."
+504,annollm_explanations_filled,No,0,,0,1.0,,,Advisory enumeration of non-exhaustive factors requiring human judgment.
+505,annollm_explanations_filled,No,0,,0,1.0,,,"Feasibility-based, multi-part accessibility obligation not decidable from model data."
+506,annollm_explanations_filled,No,0,,0,1.0,,,Refers compliance to external ADA and Section 504 regulations and program policy.
+507,annollm_explanations_filled,No,0,,0,1.0,,,Recommendation/encouragement with subjective 'equivalent experience' criterion.
+508,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on feasibility, usability judgment, and a construction commencement date outside the model."
+509,annollm_explanations_filled,No,0,,0,1.0,,,Defers entirely to external section 403.
+510,annollm_explanations_filled,No,0,,0,1.0,,,Requirement content lies in cited section 1008.
+511,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to 1006 with no self-contained criterion.
+512,annollm_explanations_filled,No,0,,0,1.0,,,Compliance criteria are in cited clause 904.3.
+513,annollm_explanations_filled,No,0,,0,1.0,,,Refers out to 1006.3 for all substance.
+514,annollm_explanations_filled,No,0,,0,1.0,,,Pure cross-reference to 1008.3.1.
+515,annollm_explanations_filled,No,0,,0,1.0,,,Conditional but content depends on external 810.3.
+516,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to 1003 supplies the criteria.
+517,annollm_explanations_filled,No,0,,0,1.0,,,Requirement resides in cited 1002.4.
+518,annollm_explanations_filled,No,0,,0,1.0,,,Refers to 209.2 rather than stating a testable rule.
+519,annollm_explanations_filled,No,0,,0,1.0,,,Cites two external sections and bundles them.
+520,annollm_explanations_filled,No,0,,0,1.0,,,Requires conformance to an external ASTM standard involving physical impact testing.
+521,annollm_explanations_filled,No,0,,0,1.0,,,Alternative compliance paths are defined in cited clauses.
+522,annollm_explanations_filled,No,0,,0,1.0,,,Quantities and conditions are contained in section 224.
+523,annollm_explanations_filled,No,0,,0,1.0,,,'Shall be permitted' grants permission rather than imposing an obligation.
+524,annollm_explanations_filled,No,0,,0,1.0,,,Defers to an entire external chapter for criteria.
+525,annollm_explanations_filled,No,0,,0,1.0,,,Cross-reference to a range of external sections.
+526,annollm_explanations_filled,No,0,,0,1.0,,,Content lies in cited sections 810.5-810.10 and depends on external 'key station' designation.
+527,annollm_explanations_filled,No,0,,0,1.0,,,Permissive option referring to external clause 902.4.
+528,annollm_explanations_filled,No,0,,0,1.0,,,Sign requirements are specified in cited section 216.9.
+529,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance is delegated to external clause 904, so the sentence is not self-contained."
+530,annollm_explanations_filled,No,0,,0,1.0,,,Requirement content resides in cited section 1002.5 rather than in the sentence.
+531,annollm_explanations_filled,No,0,,0,1.0,,,Defers entirely to external provision 1008.2.6.
+532,annollm_explanations_filled,No,0,,0,1.0,,,Bundles an in-use obstruction condition (needing operational observation) with a cross-reference to Section 309.4.
+533,annollm_explanations_filled,No,0,,0,1.0,,,Obligation is defined only by reference to 1008.3.
+534,annollm_explanations_filled,No,0,,0,1.0,,,"Criteria are contained in cited section 308, not in the sentence."
+535,annollm_explanations_filled,No,0,,0,1.0,,,Substance lies in the referenced clause 1008.2.5.
+536,annollm_explanations_filled,No,0,,0,1.0,,,"Two separate obligations, each pointing to external subsections."
+537,annollm_explanations_filled,No,0,,0,1.0,,,"Depends on project-specific buyer requests and unspecified 'accessible feature requirements', not model data."
+538,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption based on a subjective demonstration of structural impracticability.
+539,annollm_explanations_filled,No,0,,0,1.0,,,"Multiple independent obligations, all referring to outside clauses 221.2, 221.4 and 221.5."
+540,annollm_explanations_filled,No,0,,0,1.0,,,Requirement content is in cited section 810.2 and depends on designated transit route data.
+541,annollm_explanations_filled,No,0,,0,1.0,,,Relies on alteration history and unspecified 'requirements for the altered element' outside the model.
+542,annollm_explanations_filled,No,0,,0,1.0,,,Requires external fixed-route service data and undefined 'dimensional entrance requirements'.
+543,annollm_explanations_filled,No,0,,0,1.0,,,"Contains two distinct obligations, each deferring to external sections 707 and 811."
+544,annollm_explanations_filled,No,0,,0,1.0,,,"States an exemption rather than an obligation, and points to section 234."
+545,annollm_explanations_filled,No,0,,0,1.0,,,"Exemption from a requirement, not a checkable obligation, and involves material properties not in the model."
+546,annollm_explanations_filled,No,0,,0,1.0,,,Depends on an external table and clause 1008.4 for its numeric criteria.
+547,annollm_explanations_filled,No,0,,0,1.0,,,Offers a choice between two external standards and hinges on project dates outside the model.
+548,annollm_explanations_filled,No,0,,0,1.0,,,Definitional exclusion referring to counting rules in 240.2.1.2 rather than an independently checkable obligation.
+549,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external standards (1991/2010 Standards) and construction dates outside the model.
+550,annollm_explanations_filled,No,0,,0,1.0,,,"Relies on cited sections, UFAS and dated compliance history not contained in a BIM model."
+551,annollm_explanations_filled,No,0,,0,1.0,,,Bundles several obligations and defers to Table 227.2 and clause 904.3.
+552,annollm_explanations_filled,No,0,,0,1.0,,,Permissive ('may comply') and depends on external standards and construction dates.
+553,annollm_explanations_filled,No,0,,0,1.0,,,"Place/date line, not a requirement."
+554,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a grammatically whole obligation."
+555,annollm_explanations_filled,No,0,,0,1.0,,,Fragmentary heading with no testable criterion.
+556,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement statement."
+557,annollm_explanations_filled,No,0,,0,1.0,,,'Safe and appropriate' is subjective and unmeasurable from model data.
+558,annollm_explanations_filled,No,0,,0,1.0,,,"Permissive statement ('may be'), imposing no obligation."
+559,annollm_explanations_filled,No,0,,0,1.0,,,"Fragment describing climatic conditions, not an obligation."
+560,annollm_explanations_filled,No,0,,0,1.0,,,"Declarative wind-climate parameter, external environmental data rather than model content."
+561,annollm_explanations_filled,No,0,,0,1.0,,,"Annex title, not a requirement."
+562,annollm_explanations_filled,No,0,,0,1.0,,,"Permissive allowance requiring structural analysis, not model-decidable."
+563,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a whole mandatory statement."
+564,annollm_explanations_filled,No,0,,0,1.0,,,"Explanatory remark about a calculation method, not an obligation."
+565,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement."
+566,annollm_explanations_filled,No,0,,0,1.0,,,Defines a design value rather than imposing a model-checkable obligation; temperature requires simulation.
+567,annollm_explanations_filled,No,0,,0,1.0,,,Permissive and dependent on an external annex method.
+568,annollm_explanations_filled,No,0,,0,1.0,,,"Exclusion clause referring to 'the above', not self-contained or obligatory."
+569,annollm_explanations_filled,No,0,,0,1.0,,,"Labeled subjective and merely permissive ('may be combined'), not an obligation."
+570,annollm_explanations_filled,No,0,,0,1.0,,,'Suitable for their use' is a subjective judgment with no model-checkable criterion.
+571,annollm_explanations_filled,No,0,,0,1.0,,,"Scope statement about the Decree's applicability, not a checkable obligation."
+572,annollm_explanations_filled,No,0,,0,1.0,,,'Safe and appropriate' is vague and requires subjective assessment.
+573,annollm_explanations_filled,No,0,,0,1.0,,,No quantified lighting criterion; 'enables safe use' requires judgment.
+574,annollm_explanations_filled,No,0,,0,1.0,,,"An exemption referring to 'the above' clause, not a self-contained requirement."
+575,annollm_explanations_filled,No,0,,0,1.0,,,No dimensional threshold given; 'enable use of assistive devices' is a judgment call.
+576,annollm_explanations_filled,No,0,,0,1.0,,,"Fragment about climate-data adjustment requiring external site/altitude data, not a building obligation."
+577,annollm_explanations_filled,No,0,,0,1.0,,,Declarative statement relying on an externally defined load category and value.
+578,annollm_explanations_filled,No,0,,0,1.0,,,"Points to an external standard fire test curve; compliance requires testing, not model data."
+579,annollm_explanations_filled,No,0,,0,1.0,,,'Proportionate to loads and goods traffic' is subjective and needs external operational data.
+580,annollm_explanations_filled,No,0,,0,1.0,,,"Heading-like fragment labeled subjective, with no complete obligation."
+581,annollm_explanations_filled,No,0,,0,1.0,,,"Prescribes an energy-calculation procedure, not a model-verifiable design condition."
+582,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of indoor climate, imposing no obligation."
+583,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of recirculation air, not a requirement."
+584,annollm_explanations_filled,No,0,,0,1.0,,,"'In accordance with activities' is a subjective design judgment, not model-decidable."
+585,annollm_explanations_filled,No,0,,0,1.0,,,"Permissive, heading-like fragment referencing external consequence classes."
+586,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external municipal sewer/plant information and offers several independent alternatives.
+587,annollm_explanations_filled,No,0,,0,1.0,,,No numeric riser/tread ratio given; 'easy to use' is subjective.
+588,annollm_explanations_filled,No,0,,0,1.0,,,"Impermeability of seams and penetrations requires physical testing/inspection, not model data."
+589,annollm_explanations_filled,No,0,,0,1.0,,,"It is a definition, not an obligation."
+590,annollm_explanations_filled,No,0,,0,1.0,,,Permissive ('may') and defers to requirements elsewhere in the section.
+591,annollm_explanations_filled,No,0,,0,1.0,,,Explicitly qualitative/subjective and only says 'may require'.
+592,annollm_explanations_filled,No,0,,0,1.0,,,"Compliance rests on a subjective judgment of fire/explosion hazard, not model data."
+593,annollm_explanations_filled,No,0,,0,1.0,,,"'Easy to open' by impaired persons is a subjective, functional criterion requiring testing."
+594,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external weather data in Annex 1 and is not a model property.
+595,annollm_explanations_filled,No,0,,0,1.0,,,Permissive classification statement relying on externally determined fire load density.
+596,annollm_explanations_filled,No,0,,0,1.0,,,"Bundles duct provision and negative-pressure design, and hazardous/odour handling plus pressure need non-model performance data."
+597,annollm_explanations_filled,No,0,,0,1.0,,,Refers to external design documents and site-condition suitability judgment.
+598,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of a calculated value, with no obligation."
+599,annollm_explanations_filled,No,0,,0,1.0,,,Assigns designer duties and a preferred solution hierarchy that cannot be decided from model geometry.
+600,annollm_explanations_filled,No,0,,0,1.0,,,Defines a difficulty classification using subjective criteria.
+601,annollm_explanations_filled,No,0,,0,1.0,,,"Definitional description of energy consumption composition, not a checkable obligation."
+602,annollm_explanations_filled,No,0,,0,1.0,,,"Descriptive classification listing, not a mandatory single requirement."
+603,annollm_explanations_filled,No,0,,0,1.0,,,Heading/citation fragment with no requirement.
+604,annollm_explanations_filled,No,0,,0,1.0,,,Heading/citation fragment with no requirement.
+605,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption ('need not') and concerns analysis procedure rather than model content.
+606,annollm_explanations_filled,No,0,,0,1.0,,,Fragmentary and requires physical testing or empirical analysis.
+607,annollm_explanations_filled,Yes,0,,0,1.0,,,"Complete, single, mandatory geometric calculation rule decidable from model dimensions."
+608,annollm_explanations_filled,No,0,,0,1.0,,,Relies on an external building category definition and unspecified design values.
+609,annollm_explanations_filled,No,0,,0,1.0,,,"Fragment that merely points to an external standard clause, no self-contained obligation."
+610,annollm_explanations_filled,No,0,,0,1.0,,,Definitional statement of load-factor values deferring to an external standard's national choices.
+611,annollm_explanations_filled,No,0,,0,1.0,,,"Scope statement referring to an external standard, not a checkable obligation."
+612,annollm_explanations_filled,No,0,,0,1.0,,,"Fragment expressly requiring project-specific assessment, not model-decidable."
+613,annollm_explanations_filled,No,0,,0,1.0,,,"Scope statement tied to an external standard, imposing no verifiable model condition."
+614,annollm_explanations_filled,No,0,,0,1.0,,,Defers wholly to values in an external standard and its annexes.
+615,annollm_explanations_filled,No,0,,0,1.0,,,Defers wholly to values in an external standard and its annexes.
+616,annollm_explanations_filled,No,0,,0,1.0,,,"Calibration and measurement correction require physical testing and certification, not model data."
+617,annollm_explanations_filled,No,0,,0,1.0,,,Fragment calling for case-by-case expert assessment.
+618,annollm_explanations_filled,No,0,,0,1.0,,,Vague 'taken into account' obligation depending on external site noise/vibration data and judgment.
+619,annollm_explanations_filled,No,0,,0,1.0,,,Trigger depends on a subjective leak-risk judgment and antecedent outside the sentence.
+620,annollm_explanations_filled,No,0,,0,1.0,,,"Requires a project-specific risk assessment, external to any model."
+621,annollm_explanations_filled,No,0,,0,1.0,,,Permissive ('may') and satisfied by a physical full-scale fire test.
+622,annollm_explanations_filled,No,0,,0,1.0,,,"Mandates a systematic risk assessment process, not a model-verifiable condition."
+623,annollm_explanations_filled,No,0,,0,1.0,,,Load values are defined in cited decrees and depend on external vehicle categories.
+624,annollm_explanations_filled,No,0,,0,1.0,,,Refers to numerical values given elsewhere and concerns acoustic performance requiring testing.
+625,annollm_explanations_filled,No,0,,0,1.0,,,"Requires dynamic energy simulation with external climate and system data, not model-alone checking."
+626,annollm_explanations_filled,No,0,,0,1.0,,,Assigns responsibility and depends on measured moisture content verified by inspection.
+627,annollm_explanations_filled,No,0,,0,1.0,,,Discretionary authority requirement referencing an external act and an evacuation-time analysis.
+628,annollm_explanations_filled,No,0,,0,1.0,,,Statement of applicability of a factor rather than an obligation checkable in a model.
+629,annollm_explanations_filled,No,0,,0,1.0,,,"Fragment that merely points to an external annex, no self-contained obligation."
+630,annollm_explanations_filled,No,0,,0,1.0,,,"Values are defined in an external act, not in the sentence, and are not model geometry."
+631,annollm_explanations_filled,No,0,,0,1.0,,,Fragmentary note depending on an unspecified external specification.
+632,annollm_explanations_filled,No,0,,0,1.0,,,Fragment referring to Annex B guidance rather than stating a checkable obligation.
+633,annollm_explanations_filled,No,0,,0,1.0,,,"Performance requirement needing external climatic data and thermal analysis, not model data alone."
+634,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of design-task difficulty resting on subjective judgment, not an obligation."
+635,annollm_explanations_filled,No,0,,0,1.0,,,"Classification definition with subjective 'strict requirements' criteria, not a mandatory rule."
+636,annollm_explanations_filled,No,0,,0,1.0,,,Permissive exemption conditioned on a designer's expert determination of soil and groundwater.
+637,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of difficulty class based on subjective assessment, no checkable obligation."
+638,annollm_explanations_filled,No,0,,0,1.0,,,Definitional classification relying on subjective 'special demands' judgment.
+639,annollm_explanations_filled,No,0,,0,1.0,,,"Definitional classification relying on subjective judgment, not an obligation."
+640,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of an exceptionally difficult design task, subjective and non-mandatory."
+641,annollm_explanations_filled,No,0,,0,1.0,,,"Definition based on subjective simplicity criteria, not a verifiable obligation."
+642,annollm_explanations_filled,No,0,,0,1.0,,,Pure cross-reference to clause 216.4 with no criteria stated in the sentence.
+643,annollm_explanations_filled,No,0,,0,1.0,,,"Exemption rather than obligation, hinging on operational policy about inmate egress rights."
+644,annollm_explanations_filled,No,0,,0,1.0,,,"Advisory recommendation ('it is recommended'), not a mandatory requirement."
+645,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption and depends entirely on external clauses 404.2 and 404.3.6.
+646,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external section 305 and bundles provision plus non-overlap as separable requirements.
+647,annollm_explanations_filled,No,0,,0,1.0,,,"Definitional scoping statement about facility coverage, imposing no obligation."
+648,annollm_explanations_filled,No,0,,0,1.0,,,"Refers to clause 1003.3.1, uses vague 'dispersed throughout', and contains two separable provisions."
+649,annollm_explanations_filled,No,0,,0,1.0,,,Grants an exemption rather than an obligation and depends on external clause 240.2.1.2.
+650,annollm_explanations_filled,No,0,,0,1.0,,,'Comparable' and the listed factors require subjective judgment and external project data.
+651,annollm_explanations_filled,No,0,,0,1.0,,,"Advisory administrative statement, not a building requirement."
+652,annollm_explanations_filled,No,0,,0,1.0,,,Informational/permissive statement with no model-checkable criterion.
+653,annollm_explanations_filled,No,0,,0,1.0,,,Cites section 302 and bundles two separate requirements.
+654,annollm_explanations_filled,No,0,,0,1.0,,,'Shall be permitted' grants permission rather than imposing an obligation.
+655,annollm_explanations_filled,No,0,,0,1.0,,,Exception waiving a requirement and dependent on cited section 608.4.
+656,annollm_explanations_filled,No,0,,0,1.0,,,Exception waiving a requirement and referencing section 608.3.
+657,annollm_explanations_filled,No,0,,0,1.0,,,Purely informational text with no requirement.
+658,annollm_explanations_filled,No,0,,0,1.0,,,Exemption clause relying on external section 607.4 and use-based conditions.
+659,annollm_explanations_filled,No,0,,0,1.0,,,"Content resides entirely in cited section 504, so not self-contained."
+660,annollm_explanations_filled,No,0,,0,1.0,,,Defers to sections 307 and 602 for all substantive criteria.
+661,annollm_explanations_filled,No,0,,0,1.0,,,Requirement is defined only by reference to cited subsections.
+662,annollm_explanations_filled,No,0,,0,1.0,,,All criteria lie in referenced sections 302 and 303.
+663,annollm_explanations_filled,No,0,,0,1.0,,,Relies on external ASME standard and bundles multiple operational requirements not modelable.
+664,annollm_explanations_filled,No,0,,0,1.0,,,References sections 609 and 604.5.1 and states two separate obligations.
+665,annollm_explanations_filled,No,0,,0,1.0,,,"Explanatory list of examples, not a mandatory checkable rule."
+666,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a grammatically whole requirement."
+667,annollm_explanations_filled,No,0,,0,1.0,,,Criteria are entirely in the cited section 611.
+668,annollm_explanations_filled,No,0,,0,1.0,,,Depends on external clause 703.5 and undefined 'stations covered by this section'.
+669,annollm_explanations_filled,No,0,,0,1.0,,,Defers compliance to external clause 703.5.
+670,annollm_explanations_filled,No,0,,0,1.0,,,"Deeming provision based on project cost data, not model content."
+671,annollm_explanations_filled,No,0,,0,1.0,,,"States an exemption/permission rather than an obligation, with multiple external conditions."
+672,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a complete requirement."
+673,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a complete requirement."
+674,annollm_explanations_filled,No,0,,0,1.0,,,"Chapter heading, not a requirement."
+675,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement."
+676,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement."
+677,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement."
+678,annollm_explanations_filled,No,0,,0,1.0,,,"Section heading, not a requirement."
+679,annollm_explanations_filled,No,0,,0,1.0,,,"Definitional statement of a category, with no obligation and subjective criteria."
+680,annollm_explanations_filled,No,0,,0,1.0,,,"Vague design-process duty bundling many factors, not verifiable from model data."
+681,annollm_explanations_filled,No,0,,0,1.0,,,"Definition, imposes no obligation."
+682,annollm_explanations_filled,No,0,,0,1.0,,,"Definition, imposes no obligation."
+683,annollm_explanations_filled,No,0,,0,1.0,,,"Definition, imposes no obligation."
+684,annollm_explanations_filled,No,0,,0,1.0,,,"Definition, imposes no obligation."
+685,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of an acoustic metric, no obligation and requires measurement."
+686,annollm_explanations_filled,No,0,,0,1.0,,,"Definition, imposes no obligation."
+687,annollm_explanations_filled,No,0,,0,1.0,,,"Definition referencing fire performance requiring testing, no obligation."
+688,annollm_explanations_filled,No,0,,0,1.0,,,"Definition of a calculated quantity, imposes no obligation."
+689,annollm_explanations_filled,No,0,,0,1.0,,,"Bare section heading, not a grammatically whole requirement."
+690,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative exemption relying on external CC1 classification, not verifiable from model geometry."
+691,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative statement pointing to externally defined limits by building type, not self-contained or model-checkable."
+692,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative parameter setting tied to an external standard/decree, with no model-verifiable obligation."
+693,annollm_explanations_filled,No,0,,0,1.0,,,"Operational security obligation about persons' access, requiring judgment and management measures rather than model data."
+694,annollm_explanations_filled,No,0,,0,1.0,,,"Administrative adoption of values from cited standards and annexes, not a self-contained checkable rule."
+695,annollm_explanations_filled,No,0,,0,1.0,,,"Procedural documentation duty performed by a person during construction, outside any BIM model."
+696,annollm_explanations_filled,No,0,,0,1.0,,,"Conditional on suspicion of contamination and requires cleansing/disinfection actions verified by inspection, not model data."
+697,annollm_explanations_filled,No,0,,0,1.0,,,Legal repeal clause with no building requirement to check.
+698,annollm_explanations_filled,No,0,,0,1.0,,,"Descriptive statement about calculation input data, not a mandatory model-checkable requirement."
+699,annollm_explanations_filled,No,0,,0,1.0,,,"Scope statement referring to an external standard, imposing no checkable obligation."
+700,annollm_explanations_filled,No,0,,0,1.0,,,"Applicability clause hinging on change of purpose and 'higher risk' judgment, not decidable from a model."

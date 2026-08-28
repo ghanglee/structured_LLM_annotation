@@ -28,7 +28,7 @@ def main(base):
     gold = pd.read_csv(f"{base}/data/gold_labels.csv")
     g = dict(zip(gold.id, LOW(gold.verdict)))
 
-    print("=== Table 4: proposed configurations, Claude Opus 5 ===")
+    print("=== Table 5: proposed configurations and SOTA baselines, Claude Opus 5 ===")
     d = pd.read_csv(f"{base}/outputs/acc_opus5.csv")
     d["gold"] = d.id.map(g)
     for cfg, flag in (("A1", None), ("A2", None), ("A3", "A3_check_failed"), ("A4", "A4_check_failed")):
@@ -37,7 +37,7 @@ def main(base):
         auto = ok[~fl]
         print(f"  {cfg}  all {ok.mean():6.1%}   auto {auto.mean():6.1%}   referred {fl.mean():5.1%}")
 
-    print("\n=== Table 5: paired exact McNemar against the published baselines ===")
+    print("\n=== Table 6: paired exact McNemar against the SOTA baselines ===")
     b = pd.read_csv(f"{base}/outputs/acc_baselines.csv")
     b["gold"] = b.id.map(g)
     b["v"] = LOW(b.verdict)
@@ -51,7 +51,7 @@ def main(base):
             print(f"  {cfg} vs {m:16s} n={len(grp):3d}  {a_ok.mean():.1%} vs {b_ok.mean():.1%}  "
                   f"{cfg} only {n01:3d} / other {n10:3d}  p={p:.3g}")
 
-    print("\n=== Tables 7 and 8: expert human annotators ===")
+    print("\n=== Tables 8 and 9: expert human annotators ===")
     r = pd.read_csv(f"{base}/data/raters.csv")
     r["gold"] = r.id.map(g)
     for col in ("rater_1", "rater_2", "rater_3", "majority"):
@@ -69,7 +69,7 @@ def main(base):
         ok = LOW(r[col]) == r.gold
         print(f"  {col}   unanimous {ok[un].mean():.1%}  contested {ok[~un].mean():.1%}")
 
-    print("\n=== Table 6: attribution of the advantage ===")
+    print("\n=== Table 7: attribution of the advantage ===")
     comp_ok = LOW(d.A1_verdict) == d.gold
     hol_ok = LOW(d.Ah_Verdict) == d.gold
     n01, n10, p = mcnemar(comp_ok, hol_ok)
@@ -77,7 +77,7 @@ def main(base):
     print(f"  composed from seven properties (A1)  {comp_ok.mean():.1%}   "
           f"composed only {n01} / holistic only {n10}  p={p:.3g}")
 
-    print("\n=== Table 12: across four models ===")
+    print("\n=== Table 14: across four models ===")
     for name, fn in MODELS:
         if not os.path.exists(f"{base}/outputs/{fn}"):
             continue
