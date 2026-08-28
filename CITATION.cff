@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: If you use this dataset or code, please cite the paper below.
-title: Call-efficient LLM annotation for gold-standard datasets — data and code
+title: Structured evaluation with rule-based verification for LLM annotation of gold-standard datasets — data and code
 abstract: >-
   Elicitations, gold labels, rule sets and a deterministic verifier for a structured
   LLM annotation method that decomposes a label into a hierarchy of granularities,
-  declares the relations among them as logical rules, elicits each granularity in
-  mutually blind calls, and applies those rules at no model cost.
+  declares the relations among them as logical rules, evaluates each granularity in
+  a mutually blind pass, and applies those rules at no model cost.
 authors:
   - family-names: Lee
     given-names: Ghang

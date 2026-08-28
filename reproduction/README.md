@@ -3,9 +3,9 @@
 ```bash
 pip install pandas scipy
 cd scripts
-python reproduce_acc.py             # Tables 5, 6, 7, 8, 9, 14 and error concentration
-python reproduce_goemotions.py      # Tables 11, 12, 13 and the entailment result
-python reproduce_annollm_rerun.py   # the AnnoLLM fidelity check of Section 7.5
+python reproduce_acc.py             # Tables 3, 4, 5, 6, the Section 5.1 contrasts and error concentration
+python reproduce_goemotions.py      # Tables 8, 9 and the Section 6.1 contrasts
+python reproduce_annollm_rerun.py   # the AnnoLLM implementation-fidelity check
 ```
 
 No model is called. Both scripts read only `data/` and `outputs/`.
@@ -24,7 +24,7 @@ outputs/
   acc_gpt56sol.csv         the same for GPT-5.6 Sol
   acc_gemini31pro.csv      the same for Gemini 3.1 Pro
   acc_baselines.csv        the four published baselines, per instance
-  goemotions_proposed.csv  every GoEmotions elicitation, including the single-call condition
+  goemotions_proposed.csv  every GoEmotions elicitation, including the single-pass condition
   goemotions_baselines.csv the four published baselines, one row per pass
   acc_baselines_annollm_rerun.csv
                            AnnoLLM rerun with the demonstration explanations generated
@@ -33,23 +33,32 @@ baselines/rerun/           harness for the AnnoLLM fidelity check; needs an API 
 scripts/
 ```
 
-## Three known deviations in the baseline runs
+## Deviations in the baseline runs
 
-All three are disclosed in Section 7.5 of the paper and all three are visible in the shipped
-outputs.
+Section 4.2 of the paper records three departures from the published specifications. All three
+are visible in the shipped outputs.
 
-- **AnnoLLM** left the explanation slot of each demonstration unfilled in the reported run, so
-  the demonstrations carried labels without the generated rationales that define
-  explain-then-annotate. The method was rerun with those explanations generated and nothing else
-  changed. Accuracy moved from 89.6% to 89.7% on the same 692 provisions, 17 gained against 16
-  lost, p = 1.00, so the defect did not affect the comparison in Table 5. Recompute it with
-  `python reproduce_annollm_rerun.py`; rerun it from scratch with `baselines/rerun/`.
-
+- **DREAM** on the building-regulation corpus fed the same first-round rationale to both
+  second-round passes instead of crossing them. That run was repeated with the rationales
+  crossed and the corrected run is the one reported throughout: convergence rose from 65.4% to
+  78.9% of the corpus and accuracy on the converged portion fell from 90.6% to 85.3%. The
+  GoEmotions run crosses the rationales correctly and was not repeated.
+- **CoAnnotating**'s 20% work allocation exceeds what its vote-entropy signal can order, so part
+  of the deferred set is selected by tie-breaking rather than by the ranking.
 - **Tavakoli and Zamani** was implemented with several personas of one model rather than an
   ensemble across providers, which is the published method's core mechanism. It is the closest
   competitor on both corpora, so the deviation understates it.
-- **DREAM** on the building-regulation corpus fed the same first-round rationale to both
-  second-round calls instead of crossing them. The GoEmotions run crosses them correctly.
+
+### One correction made before reporting
+
+**AnnoLLM** left the explanation slot of each demonstration unfilled in a first run, so the
+demonstrations carried labels without the generated rationales that define explain-then-annotate.
+The method was rerun with those explanations generated and nothing else changed. Accuracy moved
+from 89.6% to 89.7% on the same 692 provisions, 17 gained against 16 lost, p = 1.00. The paper
+reports only the corrected figure, 89.7%. Both runs are shipped so the correction can be checked:
+`acc_baselines.csv` holds the first run and `acc_baselines_annollm_rerun.csv` the corrected one.
+Recompute the comparison with `python reproduce_annollm_rerun.py`; rerun it from scratch with
+`baselines/rerun/`.
 
 ## Held-out demonstrations
 

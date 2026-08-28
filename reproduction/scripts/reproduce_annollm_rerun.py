@@ -1,4 +1,4 @@
-"""Recompute the AnnoLLM implementation-fidelity check reported in Section 7.5.
+"""Recompute the AnnoLLM implementation-fidelity check behind the reported 89.7%.
 
 The reported AnnoLLM run left the explanation slot of each demonstration unfilled, so its
 demonstrations carried labels without the generated rationales that define explain-then-annotate.
@@ -36,7 +36,7 @@ def main(base):
     common = a.index.intersection(b.index)
     a, b = a.loc[common], b.loc[common]
 
-    print("=== AnnoLLM implementation-fidelity check (Section 7.5) ===")
+    print("=== AnnoLLM implementation-fidelity check ===")
     print(f"  as reported, explanation slot unfilled : {a.mean():6.1%}   n = {len(a)}")
     print(f"  explanations generated                 : {b.mean():6.1%}   n = {len(b)}")
     print(f"  difference                             : {b.mean() - a.mean():+.1%}")

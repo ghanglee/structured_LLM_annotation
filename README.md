@@ -1,7 +1,6 @@
-# Call-efficient structured LLM annotation — data and code
+# Structured evaluation with rule-based verification — data and code
 
-Companion release for *Call-efficient LLM annotation for gold-standard datasets by structured
-elicitation with rule-based verification*.
+Companion release for *Structured evaluation with rule-based verification for verifiable and review-efficient LLM annotation of gold-standard datasets*.
 
 The repository is split by what you want to do. The two halves are independent.
 
@@ -14,8 +13,9 @@ The repository is split by what you want to do. The two halves are independent.
 `reproduction/baselines/rerun/` re-executes a baseline against a live model and is not needed to
 reproduce any table. The elicitations the paper reports are
 shipped as data, so all results recompute offline and at no cost. This matters more than
-convenience: the reference model is a dated snapshot and cannot be reproduced identically once
-it is retired, so the stored outputs are the only durable record of what was measured.
+convenience: the models are named by version alias rather than by dated snapshot and cannot be
+reproduced identically once they are retired, so the stored outputs are the only durable record
+of what was measured.
 
 ## Quick start
 
@@ -59,15 +59,15 @@ labels, anonymised; the prompts; the rule sets; and the verifier.
 - **An invalidated experiment.** An attempt to build a seven-sub-element decomposition of
   emotion is deliberately excluded. Its composition table was invented by the authors rather
   than stipulated by the corpus and resolved by nearest-neighbour distance, which is not a
-  logical rule; it is described in the paper's limitations and should not be reused.
+  logical rule. It is not reported in the paper and should not be reused.
 
 ## A caveat on the reference standard
 
 The building-regulation reference standard was constructed by the authors using the same
 codebook the model is prompted with. If it was adjudicated with the current litmus-test set in
 view, then accuracy measured against it partly reflects agreement with a procedure rather than
-correctness. Readers should weigh the primary-experiment figures accordingly. This is stated in
-the paper and repeated here because a public release invites the check.
+correctness. Readers should weigh the primary-experiment figures accordingly. Sections 4.2 and 5.1 of the
+paper state this boundary; it is repeated here because a public release invites the check.
 
 ## Licence
 

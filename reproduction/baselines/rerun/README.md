@@ -26,7 +26,7 @@ AnnoLLM's explain-then-annotate mechanism therefore never executed.
 | `explanations-only` | **identical** to as-run | label plus generated explanation | one: the defect |
 | `faithful` | holistic task definition only | label plus explanation generated without the codebook | two: defect and prose |
 
-`explanations-only` is the arm reported in Section 7.5. It changes exactly one thing, so its
+`explanations-only` is the corrected arm the paper reports. It changes exactly one thing, so its
 result measures what the unfilled slot cost. `faithful` additionally removes the enumerated
 criteria from the prompt; it is provided for completeness and is not reported.
 

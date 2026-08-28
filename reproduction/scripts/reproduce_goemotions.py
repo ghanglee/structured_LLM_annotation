@@ -43,7 +43,7 @@ def main(base):
                     for i, a, b in zip(d.sample_index, d.fine_A, d.fine_B)], index=d.index)
     esc = (d.fine_A != d.fine_B).mean()
 
-    print("=== Table 11: proposed configurations and SOTA baselines on GoEmotions ===")
+    print("=== Table 8: proposed configurations and SOTA baselines on GoEmotions ===")
     for nm, v, fl, calls in (("A1", A1, pd.Series(False, index=d.index), 1.00),
                              ("A2", A2, pd.Series(False, index=d.index), round(2 + esc, 2)),
                              ("A3", A3, resid, 2.00)):
@@ -51,7 +51,7 @@ def main(base):
         print(f"  {nm}  calls {calls:4.2f}  all {ok.mean():6.1%}  "
               f"auto {ok[~fl].mean():6.1%}  referred {fl.mean():5.1%}")
 
-    print("\n=== Table 12: paired exact McNemar against the SOTA baselines ===")
+    print("\n=== Section 6.1: paired exact McNemar against the SOTA baselines ===")
     b = pd.read_csv(f"{base}/outputs/goemotions_baselines.csv")
     gm = dict(zip(d.sample_index, d.gold))
     agg = {}
@@ -74,15 +74,15 @@ def main(base):
             n01, n10, p = mcnemar(a_ok, b_ok)
             print(f"  {nm} vs {m:16s} n={len(common):3d}  {a_ok.mean():.1%} vs {b_ok.mean():.1%}  p={p:.3g}")
 
-    print("\n=== Table 13: effect of blind elicitation ===")
-    print(f"  fine label alone, one call                    {(d.fine_A==d.gold).mean():6.1%}")
-    print(f"  all granularities in the SAME call            {(d.combined_fine==d.gold).mean():6.1%}")
+    print("\n=== Section 7.1: effect of blind evaluation ===")
+    print(f"  fine label alone, one pass                    {(d.fine_A==d.gold).mean():6.1%}")
+    print(f"  all granularities in the SAME pass            {(d.combined_fine==d.gold).mean():6.1%}")
     print(f"  fine and Ekman BLIND, rules applied           {(A3==d.gold).mean():6.1%}")
     selfcons = ((d.combined_ekman == d.combined_fine.map(F2E)) &
                 (d.combined_sent == d.combined_fine.map(F2S))).mean()
-    print(f"  single call is self-consistent on             {selfcons:6.1%}  -> the rules fire on nothing")
+    print(f"  single pass is self-consistent on             {selfcons:6.1%}  -> the rules fire on nothing")
 
-    print("\n=== entailment: the third constraint adds no flag ===")
+    print("\n=== Table 9: yield of each constraint set; the third constraint adds no flag ===")
     c1 = d.ekman_A == d.fine_A.map(F2E)
     c2 = d.sent_A == d.fine_A.map(F2S)
     c3 = d.sent_A == d.ekman_A.map({e: F2S[f] for e, f in DET.items()} |
