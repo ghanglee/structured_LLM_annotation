@@ -33,6 +33,30 @@ python reproduce_goemotions.py
 python reproduce_annollm_rerun.py
 ```
 
+## Layout
+
+```
+method/
+  verify.py                  the deterministic verifier
+  rules/                     rule sets for the ADCC codebook and for GoEmotions
+  prompts/                   the prompt for every configuration
+  example/                   a worked GoEmotions example
+reproduction/
+  data/                      gold labels, the three annotators' labels, corpus indexes
+  outputs/                   every stored elicitation, one row per instance
+  baselines/prompts/         the four reimplemented baselines' prompts, verbatim
+  baselines/rerun/           the reimplementation of all four baselines, and the
+                             AnnoLLM fidelity check; the only code here that calls a model
+  scripts/                   recompute the paper's tables, and verify a corpus
+                             against the shipped hashes
+```
+
+Provision text is not redistributed. `reproduction/data/provisions_index.csv` gives an
+identifier, a SHA-256 of the normalised text and a length for each of the 700 provisions, and
+`reproduction/README.md` explains how to check a corpus you already hold against them. The
+GoEmotions comment text is fetched rather than copied; see
+`reproduction/data/README_goemotions.md`.
+
 ## Licence
 
 Code is MIT. Labels, annotations and model outputs produced by this study are CC BY 4.0.

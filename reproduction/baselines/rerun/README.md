@@ -1,4 +1,8 @@
-# AnnoLLM fidelity rerun
+# Baseline reimplementation and the AnnoLLM fidelity rerun
+
+`run_baselines_codebook.py` is the reimplementation of all four baselines — AnnoLLM,
+CoAnnotating, Tavakoli and Zamani, and DREAM. Select one with `--method`. The rest of this
+file documents the AnnoLLM fidelity check, which is what the arms below are for.
 
 **This is the only part of the repository that calls a model.** Nothing here is needed to
 reproduce a table; `reproduction/scripts/reproduce_annollm_rerun.py` recomputes the result from
